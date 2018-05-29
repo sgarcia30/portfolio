@@ -124,14 +124,13 @@ section {
   font-size: 4vw;
 }
 
-.capstone, .bio {
-  /* font-size: 4vw; */
-  padding: 15px 0px;
-  margin: 0px 15px;
+.bio {
+  padding: 15px 15px;
+  font-size: 4vw;
 }
 
 .bio-cartoon {
-  width: 50%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   padding: 25px 0px;
@@ -230,12 +229,8 @@ section div a:hover .app-info {
 }
 
 .capstone {
-  padding-bottom: 0px;
+  padding: 15px 0px;
 }
-
-/* .row2 {
-  margin-top: 20px;
-} */
 
 .row2 .app-info {
   width: calc(95% + 4px);
@@ -284,12 +279,24 @@ footer {
   .bio-blurb {
     font-size: 3.5vw;
   }
+
+  .bio-cartoon {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 0px;
+  }
+
   .wrap {
     font-size: 2.5vw;
   }
 
   .bio {
     font-size: 2.5vw;
+  }
+
+  .row1 .capstone {
+    margin: 0px 15px;
   }
 
   .col {
