@@ -216,11 +216,6 @@ section div a:hover .app-info {
   display: block;
 }
 
-.recipe-depot {
-  margin: auto;
-  float: none;
-}
-
 .repo-link {
   padding-bottom: 25px;
   font-size: .95rem;
@@ -244,6 +239,15 @@ footer {
   background-color: #666666;
   color: #ecf4fb;
   font-size: 5vw;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ecf4fb;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 500px) {
@@ -304,6 +308,10 @@ footer {
     margin: 0px 15px;
   }
 
+  .row2 .capstone {
+    margin: 0px 15px;
+  }
+
   h3 {
     font-size: .65rem;
   }
@@ -312,12 +320,8 @@ footer {
     font-size: .55rem;
   }
 
-  .col {
+  .col, .col2{
     width: calc(50% - 30px);
-  }
-
-  .col2 {
-    width: 50%;
   }
 
   footer {
