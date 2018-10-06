@@ -23,6 +23,13 @@ header h1 {
   margin: 5px 5px;
 }
 
+/* .returnSearch {
+	display: none;
+	cursor: pointer;
+	float: left;
+	margin-left: 15px;
+} */
+
 .wrap {
   background-color: #666666;
   color: #ecf4fb;
