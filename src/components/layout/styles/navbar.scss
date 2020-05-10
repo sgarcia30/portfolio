@@ -1,0 +1,87 @@
+@import '../../../styles/_variables';
+@import '../../../styles/_typography';
+
+.navbar {
+  background-color: $dark-gray-blue !important;
+  color: $almost-white;
+}
+
+.logo-icon {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
+.contact-icons {
+  color: $almost-white;
+  padding: 0 2px;
+  display: inline-block;
+}
+
+.contact-container {
+  justify-content: flex-end;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.navButton:hover {
+  background-color: $darker-gray-blue !important;
+}
+
+.nav-button {
+  color: $almost-white;
+  font-family: $font-family-source-sans-pro !important;
+  font-weight: $font-weight-bold;
+  text-transform: none;
+  font-size: 1.25rem;
+}
+
+.nav-drawer-button {
+  color: $black;
+  font-family: $font-family-source-sans-pro !important;
+  font-weight: $font-weight-bold;
+  text-transform: none;
+  font-size: 1.25rem;
+}
+
+img {
+  width: 45px;
+}
+
+.fab {
+  color: white;
+}
+
+.social-container {
+  display: inline-block;
+}
+
+.menu-icon {
+  visibility: hidden;
+}
+
+.nav-button-container {
+  visibility: visible;
+  text-align: left;
+  width: 100%;
+}
+
+@media (max-width: 360px) {
+  .contact-header {
+    visibility: hidden;
+    position: fixed;
+  }
+}
+
+@media (max-width: 765px) {
+  .menu-icon {
+    visibility: visible;
+  }
+
+  .nav-button-container {
+    visibility: hidden;
+    position: fixed;
+  }
+}

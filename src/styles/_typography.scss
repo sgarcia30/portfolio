@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family-IBM-plex-sans;
+    margin: 0;
+    color: #000000;
+    font-size: 16px;
+}
+
+h5, h6, p {
+    font-family: $font-family-source-sans-pro !important;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+svg {
+  width: 1.25em;
+}

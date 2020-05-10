@@ -1,0 +1,40 @@
+@import '../../../styles/_variables';
+@import '../../../styles/_typography';
+
+.header-img {
+  height: 100vh;
+  width: 100%;
+  background: url("/images/denisse-leon-XOQWBRvec5c-unsplash.jpg");
+  background-position: center top;
+  background-size: cover;
+}
+
+hr {
+  width: 15%;
+}
+
+.main-intro {
+  font-size: 2.8em;
+  color: $black;
+}
+
+.bio-blurb {
+  font-size: 1.5em;
+  color: $black;
+}
+
+.intro {
+  padding-top: 14%;
+}
+
+@media (max-width: 415px) {
+  .intro {
+    padding-top: 30%;
+  }
+}
+
+@media (max-width: 360px) {
+  .main-intro {
+    font-size: 2em;
+  }
+}

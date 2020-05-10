@@ -1,0 +1,33 @@
+@import '../../../styles/_variables';
+@import '../../../styles/_typography';
+
+h6 {
+  font-size: 16px;
+  color: $almost-white;
+}
+
+.footer {
+  background-color: $dark-gray-blue;
+  padding: .3rem 0px;
+  margin-top: 50px;
+}
+
+.btn-sm {
+    width: 31px;
+    height: 31px;
+    border-radius: 5px;
+    float: right;
+    margin-top: -80px;
+    margin-right: 30px;
+    padding: .15rem 1rem 0 .25rem;
+}
+
+.btn-sm:focus {
+  outline: unset;
+}
+
+@media (max-width: 1024px) {
+  .btn-sm {
+    margin-top: -40px;
+  }
+}

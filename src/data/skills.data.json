@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "logo": "/logos/noun_Man Working_635126.png",
+      "title": "Web Engineer",
+      "alt": "web_engineer"
+    },
+    {
+      "logo": "/logos/noun_Engineering_636562.png",
+      "title": "Mechanical Engineer",
+      "alt": "mechanical_engineer"
+    },
+    {
+      "logo": "/logos/noun_Farmer_882117.png",
+      "title": "Gardener",
+      "alt": "gardener"
+    },
+    {
+      "logo": "/logos/noun_Mechanic_636558.png",
+      "title": "Mechanic",
+      "alt": "mechanic"
+    }
+  ]
+}
