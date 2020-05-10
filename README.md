@@ -1,10 +1,10 @@
 #Sarah Ann Garcia - Portfolio
 
--![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screen-shots/portfolio%20-%20ss1.png)
-+![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screen-shots/portfolio%20-%20ss2.png)
--![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screen-shots/portfolio%20-%20ss3.png)
-+![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screen-shots/portfolio%20-%20ss4.png)
-+![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screen-shots/portfolio%20-%20ss5.png)
+-![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screenshots/portfolio-ss1.png)
++![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screenshots/portfolio-ss2.png)
+-![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screenshots/portfolio-ss3.png)
++![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screenshots/portfolio-ss4.png)
++![Screenshots](https://github.com/sgarcia30/portfolio/blob/master/screenshots/portfolio-ss5.png)
 
 
 #Technology Used
