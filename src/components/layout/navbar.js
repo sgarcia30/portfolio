@@ -93,7 +93,7 @@ class NavBar extends React.Component {
               className="logo-icon"
               color="inherit"
               aria-label="icon">
-              <a href='/#home'>
+              <a href='/portfolio/#home'>
                 <img className='logo' src="/portfolio/logos/sa_logo.png" alt="logo"></img>
               </a>
             </IconButton>
