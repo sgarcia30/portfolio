@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "src": "/images/stilab.jpeg",
+      "src": "/portfolio/images/stilab.jpeg",
       "alt": "STI Lab",
-      "logo": "/logos/sti-logo.svg",
+      "logo": "/portfolio/logos/sti-logo.svg",
       "logoAlt": "STI Lab Logo",
       "projectName": "Specialized Testing, Inc",
       "slug": "sti-lab",
@@ -68,17 +68,17 @@
         ],
         "images": [
           {
-            "src": "/images/STI_top.png",
+            "src": "/portfolio/images/STI_top.png",
             "alt": "stilab_detail_top",
             "className": "top mb-5"
           },
           {
-            "src": "/images/STI_middle_1.png",
+            "src": "/portfolio/images/STI_middle_1.png",
             "alt": "stilab_detail_middle_1",
             "className": "middle mb-5"
           },
           {
-            "src": "/images/STI_middle_2.png",
+            "src": "/portfolio/images/STI_middle_2.png",
             "alt": "stilab_detail_middle_2",
             "className": "bottom mb-5"
           }
@@ -86,9 +86,9 @@
       }
     },
     {
-      "src": "/images/Moss.png",
+      "src": "/portfolio/images/Moss.png",
       "alt": "Moss",
-      "logo": "/logos/moss_client_logo.png",
+      "logo": "/portfolio/logos/moss_client_logo.png",
       "logoAlt": "Moss Logo",
       "projectName": "Moss",
       "slug": "moss-portal",
@@ -142,17 +142,17 @@
         ],
         "images": [
           {
-            "src": "/images/Moss_top.png",
+            "src": "/portfolio/images/Moss_top.png",
             "alt": "moss_detail_top",
             "className": "top mb-5"
           },
           {
-            "src": "/images/Moss_middle.png",
+            "src": "/portfolio/images/Moss_middle.png",
             "alt": "moss_detail_middle",
             "className": "middle mb-5"
           },
           {
-            "src": "/images/Moss_bottom.png",
+            "src": "/portfolio/images/Moss_bottom.png",
             "alt": "moss_detail_bottom",
             "className": "middle mb-5"
           }
@@ -160,9 +160,9 @@
       }
     },
     {
-      "src": "/images/mnm-all-rgJ1xwQsoJc-unsplash.jpg",
+      "src": "/portfolio/images/mnm-all-rgJ1xwQsoJc-unsplash.jpg",
       "alt": "Paradeigm",
-      "logo": "/logos/paradeigm_logo.svg",
+      "logo": "/portfolio/logos/paradeigm_logo.svg",
       "logoAlt": "Paradeigm Logo",
       "projectName": "Paradeigm: SD Beer",
       "slug": "paradeigm",
@@ -217,22 +217,22 @@
         ],
         "images": [
           {
-            "src": "/images/paradeigm_top.png",
+            "src": "/portfolio/images/paradeigm_top.png",
             "alt": "paradeigm_detail_top",
             "className": "top mb-5"
           },
           {
-            "src": "/images/paradeigm_middle_1.png",
+            "src": "/portfolio/images/paradeigm_middle_1.png",
             "alt": "paradeigm_detail_middle_1",
             "className": "middle mb-5"
           },
           {
-            "src": "/images/paradeigm_middle_2.png",
+            "src": "/portfolio/images/paradeigm_middle_2.png",
             "alt": "paradeigm_detail_middle_2",
             "className": "middle mb-5"
           },
           {
-            "src": "/images/paradeigm_bottom.png",
+            "src": "/portfolio/images/paradeigm_bottom.png",
             "alt": "paradeigm_detail_bottom",
             "className": "bottom mb-5"
           }
@@ -240,9 +240,9 @@
       }
     },
     {
-      "src": "/images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg",
+      "src": "/portfolio/images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg",
       "alt": "Thinkful",
-      "logo": "/logos/thinkful_logo.svg",
+      "logo": "/portfolio/logos/thinkful_logo.svg",
       "logoAlt": "Thinkful Logo",
       "projectName": "Thinkful Student Projects",
       "slug": "thinkful",
@@ -294,17 +294,17 @@
         ],
         "images": [
           {
-            "src": "/images/photo_life.PNG",
+            "src": "/portfolio/images/photo_life.PNG",
             "alt": "photo_life_detail_top",
             "className": "top mb-5"
           },
           {
-            "src": "/images/mind_palace.PNG",
+            "src": "/portfolio/images/mind_palace.PNG",
             "alt": "mind_palace_detail_middle_1",
             "className": "middle mb-5"
           },
           {
-            "src": "/images/recipe_depot.PNG",
+            "src": "/portfolio/images/recipe_depot.PNG",
             "alt": "recipe_depot_detail_middle_2",
             "className": "middle mb-5"
           }

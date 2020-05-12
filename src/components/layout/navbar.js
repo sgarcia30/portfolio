@@ -44,15 +44,15 @@ class NavBar extends React.Component {
     const navItems = [
       {
         text: 'Home',
-        link: '/#home'
+        link: '/portfolio/#home'
       },
       {
         text: 'About',
-        link: '/about'
+        link: '/portfolio/about'
       },
       {
         text: 'Work',
-        link: '/#project_links'
+        link: '/portfolio/#project_links'
       },
       {
         text: 'Resume',
@@ -94,7 +94,7 @@ class NavBar extends React.Component {
               color="inherit"
               aria-label="icon">
               <a href='/#home'>
-                <img className='logo' src="/logos/sa_logo.png" alt="logo"></img>
+                <img className='logo' src="/portfolio/logos/sa_logo.png" alt="logo"></img>
               </a>
             </IconButton>
             <IconButton
@@ -108,17 +108,17 @@ class NavBar extends React.Component {
             </IconButton>
             <div className="nav-button-container">
               <Button className="navButton">
-                <a className="nav-button" href='/#home'>
+                <a className="nav-button" href='/portfolio/#home'>
                   Home
                 </a>
               </Button>
               <Button className="navButton">
-                <Link className="nav-button" to='/about'>
+                <Link className="nav-button" to='/portfolio/about'>
                   About
                 </Link>
               </Button>
               <Button className="navButton">
-                <a className="nav-button" href='/#project_links'>
+                <a className="nav-button" href='/portfolio/#project_links'>
                   Work
                 </a>
               </Button>

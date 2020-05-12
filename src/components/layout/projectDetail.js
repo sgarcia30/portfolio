@@ -13,7 +13,7 @@ class ProjectDetail extends React.Component {
           { projects.map((project, key) => {
             return (
               <Grid key={key} item xs={12} sm={6} className="imageHover">
-                <Link to={`/work/${project.slug}`}>
+                <Link to={`/portfolio/work/${project.slug}`}>
                   <img src={project.src} alt={project.alt} className="img-fluid desaturate" />
                   <div className="overlay"></div>
                   <h2 className="project_name text-center">{project.projectName}</h2>

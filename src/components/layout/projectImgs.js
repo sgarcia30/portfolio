@@ -29,6 +29,3 @@ class ProjectImgs extends React.Component {
 };
 
 export default ProjectImgs;
-
-// <Tooltip title="Click to enlarge photo" arrow>
-// </Tooltip>

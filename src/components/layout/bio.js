@@ -9,7 +9,7 @@ class Bio extends React.Component {
       <section id="bio">
         <Grid container spacing={24}>
             <Grid item xs={12} sm={6} className="img-bio-grid">
-              <img src="/images/gardenPostUncompressed_cropped.jpeg" alt="bio_img" className="bio-img" />
+              <img src="/portfolio/images/gardenPostUncompressed_cropped.jpeg" alt="bio_img" className="bio-img" />
             </Grid>
             <Grid item xs={12} sm={6} className="img-bio-grid">
               <p class='bio-text'>

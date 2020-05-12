@@ -58,7 +58,7 @@ class ProjectDetails extends React.Component {
           )}
           <div>
           <div className="bottom-button-container">
-              <a href="/#project_links">
+              <a href="/portfolio/#project_links">
                 <Button className="site-button">
                   <ArrowBackIcon className="back-icon" fontSize="medium"/> All Work
                 </Button>
