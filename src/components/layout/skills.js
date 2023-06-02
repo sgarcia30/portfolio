@@ -8,7 +8,7 @@ class Skills extends React.Component {
     return (
       <section id="skills">
         <div className="container mx-auto px-0 align-content-">
-          <Grid container spacing={24} className="grid-container">
+          <Grid container spacing={24} className="grid-container" style={{ justifyContent: 'center' }}>
           { skills.map((skill, key) => {
             return (
               <Grid key={key} item xs={6} sm={3} >
