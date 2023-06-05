@@ -75,8 +75,7 @@
           }
         ]
       }
-    },
-    {
+    },    {
       "src": "/portfolio/images/ros_homepage.png",
       "alt": "Renew Our Schools",
       "logo": "/portfolio/logos/ros_logo.svg",
@@ -172,9 +171,9 @@
       "projectName": "The Reel Hope Project",
       "slug": "the-reel-hope-project",
       "detailPageInfo": {
-        "url": "",
+        "url": "https://thereelhopeproject.org/",
         "title": "The Reel Hope Project",
-        "details": "<p><strong>Project scope:</strong> Design a website for helping children in foster care find forever homes. The project included an administration management system, a page builder, and a platform for helping foster children find forever homes. It was designed using Next.js, React, Node.js, Typescript, and Tailwind.<div class='link-container'><span class='link'><a class='project-urls' href='https://thereelhopeproject.org/' rel='noopener noreferrer' target='_blank'>Live Site</a></span></div></p>",
+        "details": "<p><strong>Project scope:</strong> Design a website for helping children in foster care find forever homes. The project included an administration management system, a page builder, and a platform for helping foster children find forever homes. It was designed using Next.js, React, Node.js, Typescript, and Tailwind.</p>",
         "roles": [
           {
             "role": "Developing frontend application"
