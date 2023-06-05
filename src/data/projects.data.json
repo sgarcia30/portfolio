@@ -1,16 +1,16 @@
 {
   "projects": [
     {
-      "src": "/portfolio/images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg",
+      "src": "/portfolio/images/EBACMAP_homepage_image_1920x1280.jpg",
       "alt": "eBacMap",
-      "logo": "/portfolio/logos/thinkful_logo.svg",
+      "logo": "/portfolio/logos/logo_ebacmap.png",
       "logoAlt": "eBacMap Logo",
       "projectName": "eBacMap",
       "slug": "ebacmap",
       "detailPageInfo": {
         "url": "",
         "title": "eBacMap",
-        "details": "<p><strong>Project scope:</strong> Design a website for an environmental pathogen management company. The project included specimen pickup, tracking, testing results, reporting, and invoicing. It was designed using Next.js, React, Node.js, Typescript, and React-md.</p>",
+        "details": "<p><strong>Project scope:</strong> Design a website for an environmental pathogen management company. The project included a user management system, a billing system, specialized report building and animations, a test scheduling feature, and a test result management system. It was designed using Next.js, React, Node.js, Typescript, and React-md.</p>",
         "roles": [
           {
             "role": "Developing frontend"
@@ -19,13 +19,18 @@
             "role": "Connecting server side rendering and API"
           },
           {
-            "role": "Creating JSON templates for report building"
+            "role": "Building a Domain Driven Design (DDD) API"
           },
           {
-            "role": "Updating and adding endpoints in the API"
+            "role": "Product road map creation and implementation"
           }
         ],
         "tech": [
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#000000",
+            "text": "Next.js"
+          },
           {
             "color": "#61dafb",
             "backgroundColor": "#282c34",
@@ -33,8 +38,81 @@
           },
           {
             "color": "#ffffff",
-            "backgroundColor": "#764abc",
-            "text": "Redux"
+            "backgroundColor": "#327ac7",
+            "text": "Typescript"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#215732",
+            "text": "Node.js"
+          }
+        ],
+        "images": [
+          {
+            "src": "/portfolio/images/ebacmap_dash.jpeg",
+            "alt": "ebacmap_detail_top",
+            "className": "top mb-5"
+          },
+          {
+            "src": "/portfolio/images/ebacmap_report.png",
+            "alt": "ebacmap_detail_middle_1",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/ebacmap_ss.jpeg",
+            "alt": "ebacmap_detail_middle_2",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/ebacmap_report_graph.jpeg",
+            "alt": "ebacmap_detail_middle_3",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/ebacmap_test_results.jpeg",
+            "alt": "ebacmap_detail_middle_4",
+            "className": "middle mb-5"
+          }
+        ]
+      }
+    },
+    {
+      "src": "/portfolio/images/ros_homepage.png",
+      "alt": "Renew Our Schools",
+      "logo": "/portfolio/logos/ros_logo.svg",
+      "logoAlt": "Renew Our Schools Logo",
+      "projectName": "Renew Our Schools",
+      "slug": "renew-our-schools",
+      "detailPageInfo": {
+        "url": "",
+        "title": "Renew Our Schools",
+        "details": "<p><strong>Project scope:</strong> Design a website for educating children on saving energy. The project included an administration management system, a billing system, customizable competition creation, student progress tracking, and a student submission and review feature. It was designed using Next.js, React, Node.js, Typescript, and Tailwind.</p>",
+        "roles": [
+          {
+            "role": "Developing frontend administration area"
+          },
+          {
+            "role": "Connecting server side rendering and API"
+          },
+          {
+            "role": "Building a Domain Driven Design (DDD) API"
+          }
+        ],
+        "tech": [
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#000000",
+            "text": "Next.js"
+          },
+          {
+            "color": "#61dafb",
+            "backgroundColor": "#282c34",
+            "text": "React"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#327ac7",
+            "text": "Typescript"
           },
           {
             "color": "#ffffff",
@@ -43,44 +121,120 @@
           },
           {
             "color": "#ffffff",
-            "backgroundColor": "#e34f26",
-            "text": "HTML5"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#2962ff",
-            "text": "CSS3"
-          },
-          {
-            "color": "#000000",
-            "backgroundColor": "#f7df1e",
-            "text": "JavaScript"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#000000",
-            "text": "jQuery"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#fe5000",
-            "text": "Express"
+            "backgroundColor": "#5fbbf3",
+            "text": "Tailwind"
           }
         ],
         "images": [
           {
-            "src": "/portfolio/images/photo_life.PNG",
-            "alt": "photo_life_detail_top",
+            "src": "/portfolio/images/ros_main_dash.jpeg",
+            "alt": "ros_detail_top",
             "className": "top mb-5"
           },
           {
-            "src": "/portfolio/images/mind_palace.PNG",
-            "alt": "mind_palace_detail_middle_1",
+            "src": "/portfolio/images/ros_comp_leaderBoard.jpeg",
+            "alt": "ros_detail_middle_1",
             "className": "middle mb-5"
           },
           {
-            "src": "/portfolio/images/recipe_depot.PNG",
-            "alt": "recipe_depot_detail_middle_2",
+            "src": "/portfolio/images/ros_comp_overview.jpeg",
+            "alt": "ros_detail_middle_2",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/ros_actions.jpeg",
+            "alt": "ros_detail_middle_3",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/ros_action_modal.jpeg",
+            "alt": "ros_detail_middle_4",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/ros_admin_dash.jpeg",
+            "alt": "ros_detail_middle_5",
+            "className": "middle mb-6"
+          },
+          {
+            "src": "/portfolio/images/ros_admin_submission_review.jpeg",
+            "alt": "ros_detail_middle_6",
+            "className": "middle mb-7"
+          }
+        ]
+      }
+    },
+    {
+      "src": "/portfolio/images/trhp_homepage.png",
+      "alt": "The Reel Hope Project",
+      "logo": "/portfolio/logos/trhp_logo.png",
+      "logoAlt": "The Reel Hope Project Logo",
+      "projectName": "The Reel Hope Project",
+      "slug": "the-reel-hope-project",
+      "detailPageInfo": {
+        "url": "",
+        "title": "The Reel Hope Project",
+        "details": "<p><strong>Project scope:</strong> Design a website for helping children in foster care find forever homes. The project included an administration management system, a page builder, and a platform for helping foster children find forever homes. It was designed using Next.js, React, Node.js, Typescript, and Tailwind.<div class='link-container'><span class='link'><a class='project-urls' href='https://thereelhopeproject.org/' rel='noopener noreferrer' target='_blank'>Live Site</a></span></div></p>",
+        "roles": [
+          {
+            "role": "Developing frontend application"
+          },
+          {
+            "role": "Connecting server side rendering and API"
+          },
+          {
+            "role": "Building a Domain Driven Design (DDD) API"
+          },
+          {
+            "role": "Building website pages in page builder"
+          }
+        ],
+        "tech": [
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#000000",
+            "text": "Next.js"
+          },
+          {
+            "color": "#61dafb",
+            "backgroundColor": "#282c34",
+            "text": "React"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#327ac7",
+            "text": "Typescript"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#215732",
+            "text": "Node.js"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#5fbbf3",
+            "text": "Tailwind"
+          }
+        ],
+        "images": [
+          {
+            "src": "/portfolio/images/trhp_home.jpg",
+            "alt": "trhp_detail_top",
+            "className": "top mb-5"
+          },
+          {
+            "src": "/portfolio/images/trhp_foster_kids.jpg",
+            "alt": "trhp_detail_middle_1",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/trhp_brochure.jpeg",
+            "alt": "trhp_detail_middle_2",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/trhp_media.jpeg",
+            "alt": "trhp_detail_middle_3",
             "className": "middle mb-5"
           }
         ]
