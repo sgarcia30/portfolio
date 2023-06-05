@@ -14,10 +14,10 @@ class Bio extends React.Component {
             <Grid item xs={12} sm={6} className="img-bio-grid">
               <p class='bio-text'>
                 <h1>I'm a full stack web application developer, currently living in Georgia.</h1>
-                I’m also a Mechanical Engineer. I have a Full Stack Web Development certificate from Thinkful and a BS in Mechanical Engineering from the Georgia Institute of Technology.  Both web development and engineering, at their core, are problem solving & that is what I was made to do. I am self-motivated with a strong work ethic.
+                I obtained a BS in Mechanical Engineer from the Georgia Institute of Technology with a Full Stack Web Development certificate.  Both web development and engineering, at their core, are problem solving which is what I was made to do. I am self-motivated with a strong work ethic.
                 <br/>
                 <br/>
-                When I'm not coding, I can be found hiking and camping with my pal, Charlie. Furthermore, I live to learn. My current areas of learning (besides code) include: camping, yoga, and essential oils.
+                When not coding, I can be found hiking and camping with my pal, Charlie. I live to learn which is evident in my code but can also be seen in my hobbies: camping, yoga, and essential oils.
               </p>
               <a href="https://resume.io/r/XH6FrzeP6" rel="noopener noreferrer" target="_blank">
                 <Button className="resume-button">
