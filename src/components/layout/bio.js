@@ -19,7 +19,7 @@ class Bio extends React.Component {
                 <br/>
                 When not coding, I can be found hiking and camping with my pal, Charlie. I live to learn which is evident in my code but can also be seen in my hobbies: camping, yoga, and essential oils.
               </p>
-              <a href="/sarahanngarcia_resume.pdf" rel="noopener noreferrer" target="_blank" download>
+              <a href="/portfolio/sarahanngarcia_resume.pdf" rel="noopener noreferrer" target="_blank" download>
                 <Button className="resume-button">
                   Resume
                 </Button>

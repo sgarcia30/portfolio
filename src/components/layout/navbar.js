@@ -56,7 +56,7 @@ class NavBar extends React.Component {
       },
       {
         text: 'Resume',
-        link: '/sarahanngarcia_resume.pdf',
+        link: '/portfolio/sarahanngarcia_resume.pdf',
         rel: 'noopener noreferrer',
         target: '_blank'
       }
@@ -125,7 +125,7 @@ class NavBar extends React.Component {
                 </a>
               </Button>
               <Button className="navButton">
-                <a className="nav-button" href='/sarahanngarcia_resume.pdf' rel="noopener noreferrer" target="_blank" download>
+                <a className="nav-button" href='/portfolio/sarahanngarcia_resume.pdf' rel="noopener noreferrer" target="_blank" download>
                   Resume
                 </a>
               </Button>
