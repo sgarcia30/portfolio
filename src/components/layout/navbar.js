@@ -56,11 +56,12 @@ class NavBar extends React.Component {
       },
       {
         text: 'Resume',
-        link: 'https://resume.io/r/XH6FrzeP6',
+        link: '/sarahanngarcia_resume.pdf',
         rel: 'noopener noreferrer',
         target: '_blank'
       }
     ]
+    console.log(navItems);
     const drawer = (
         <div
           role="presentation"
@@ -75,6 +76,7 @@ class NavBar extends React.Component {
                   href={item.link}
                   rel={item.rel ? item.rel : ''}
                   target={item.target ? item.target : ''}
+                  download={item.text === 'Resume' ? true : false}
                 >
                   {item.text}
                 </a>
@@ -123,7 +125,7 @@ class NavBar extends React.Component {
                 </a>
               </Button>
               <Button className="navButton">
-                <a className="nav-button" href='https://resume.io/r/XH6FrzeP6' rel="noopener noreferrer" target="_blank">
+                <a className="nav-button" href='/sarahanngarcia_resume.pdf' rel="noopener noreferrer" target="_blank" download>
                   Resume
                 </a>
               </Button>
