@@ -71,7 +71,11 @@ class NavBar extends React.Component {
           <List>
             {navItems.map((item, index) => (
               <ListItem button key={index}>
-                <a
+                {item.text === 'About' ? (
+                  <Link to={item.link} className="nav-drawer-button">
+                    {item.text}
+                  </Link>
+                ) : (<a
                   className="nav-drawer-button"
                   href={item.link}
                   rel={item.rel ? item.rel : ''}
@@ -79,7 +83,7 @@ class NavBar extends React.Component {
                   download={item.text === 'Resume' ? true : false}
                 >
                   {item.text}
-                </a>
+                </a>)}
               </ListItem>
             ))}
           </List>
