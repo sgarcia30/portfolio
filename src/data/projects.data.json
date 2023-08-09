@@ -75,7 +75,167 @@
           }
         ]
       }
-    },    {
+    },    
+    {
+      "src": "/portfolio/images/stilab.jpeg",
+      "alt": "STI Lab",
+      "logo": "/portfolio/logos/sti-logo.svg",
+      "logoAlt": "STI Lab Logo",
+      "projectName": "Specialized Testing, Inc",
+      "slug": "sti-lab",
+      "detailPageInfo": {
+        "url": "https://stilabs.specializedtesting.com",
+        "title": "STILabs",
+        "details": "<p><strong>Project scope:</strong> Design a website for a concrete testing business to be used as a management tool. The project included specimen pickup, tracking, testing results, reporting, and invoicing. It was designed using Next.js, React, Node.js, and MaterialUI.</p>",
+        "roles": [
+          {
+            "role": "Developing frontend"
+          },
+          {
+            "role": "Connecting server side rendering and API"
+          },
+          {
+            "role": "Creating JSON templates for report building"
+          },
+          {
+            "role": "Updating and adding endpoints in the API"
+          }
+        ],
+        "tech": [
+          {
+            "color": "#61dafb",
+            "backgroundColor": "#282c34",
+            "text": "React"
+          },{
+            "color": "#ffffff",
+            "backgroundColor": "#000000",
+            "text": "Next.js"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#215732",
+            "text": "Node.js"
+          },
+          {
+            "color": "#000000",
+            "backgroundColor": "#f7df1e",
+            "text": "JavaScript"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#2962ff",
+            "text": "MaterialUI"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#e34f26",
+            "text": "HTML5"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#2962ff",
+            "text": "CSS3"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#fe5000",
+            "text": "Express"
+          }
+        ],
+        "images": [
+          {
+            "src": "/portfolio/images/STI_top.png",
+            "alt": "stilab_detail_top",
+            "className": "top mb-5"
+          },
+          {
+            "src": "/portfolio/images/STI_middle_1.png",
+            "alt": "stilab_detail_middle_1",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/STI_middle_2.png",
+            "alt": "stilab_detail_middle_2",
+            "className": "bottom mb-5"
+          }
+        ]
+      }
+    },
+    {
+      "src": "/portfolio/images/Moss.png",
+      "alt": "Moss",
+      "logo": "/portfolio/logos/moss_client_logo.png",
+      "logoAlt": "Moss Logo",
+      "projectName": "Moss",
+      "slug": "moss-portal",
+      "detailPageInfo": {
+        "url": "https://customers.mossinc.com",
+        "title": "Moss Customer Portal",
+        "details": "<p><strong>Project scope:</strong> My work on this project includes new feature building and bug squashing. I've worked on features for a new asset tracking option and product organization tools. The asset tracking option allows a customer to upload a floorplan for their assets and then drag-and-drop their assets onto the floorplan. This enables the customer to track their assets for maintenance and replacement. The product organization tools allow the products to be stored in catalogs for ease of finding and grouping specific products.</p>",
+        "roles": [
+          {
+            "role": "Developing frontend"
+          },
+          {
+            "role": "Connecting server side rendering and API"
+          },
+          {
+            "role": "Bug Squashing"
+          }
+        ],
+        "tech": [
+
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#6d50a2",
+            "text": "Aurelia"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#000000",
+            "text": "jQuery"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#e34f26",
+            "text": "HTML5"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#2962ff",
+            "text": "CSS3"
+          },
+          {
+            "color": "#000000",
+            "backgroundColor": "#f7df1e",
+            "text": "JavaScript"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#2962ff",
+            "text": "MaterialUI"
+          }
+        ],
+        "images": [
+          {
+            "src": "/portfolio/images/Moss_top.png",
+            "alt": "moss_detail_top",
+            "className": "top mb-5"
+          },
+          {
+            "src": "/portfolio/images/Moss_middle.png",
+            "alt": "moss_detail_middle",
+            "className": "middle mb-5"
+          },
+          {
+            "src": "/portfolio/images/Moss_bottom.png",
+            "alt": "moss_detail_bottom",
+            "className": "middle mb-5"
+          }
+        ]
+      }
+    },
+    {
       "src": "/portfolio/images/ros_homepage.png",
       "alt": "Renew Our Schools",
       "logo": "/portfolio/logos/ros_logo.svg",
@@ -234,165 +394,6 @@
           {
             "src": "/portfolio/images/trhp_media.jpeg",
             "alt": "trhp_detail_middle_3",
-            "className": "middle mb-5"
-          }
-        ]
-      }
-    },
-    {
-      "src": "/portfolio/images/stilab.jpeg",
-      "alt": "STI Lab",
-      "logo": "/portfolio/logos/sti-logo.svg",
-      "logoAlt": "STI Lab Logo",
-      "projectName": "Specialized Testing, Inc",
-      "slug": "sti-lab",
-      "detailPageInfo": {
-        "url": "https://stilabs.specializedtesting.com",
-        "title": "STILabs",
-        "details": "<p><strong>Project scope:</strong> Design a website for a concrete testing business to be used as a management tool. The project included specimen pickup, tracking, testing results, reporting, and invoicing. It was designed using Next.js, React, Node.js, and MaterialUI.</p>",
-        "roles": [
-          {
-            "role": "Developing frontend"
-          },
-          {
-            "role": "Connecting server side rendering and API"
-          },
-          {
-            "role": "Creating JSON templates for report building"
-          },
-          {
-            "role": "Updating and adding endpoints in the API"
-          }
-        ],
-        "tech": [
-          {
-            "color": "#61dafb",
-            "backgroundColor": "#282c34",
-            "text": "React"
-          },{
-            "color": "#ffffff",
-            "backgroundColor": "#000000",
-            "text": "Next.js"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#215732",
-            "text": "Node.js"
-          },
-          {
-            "color": "#000000",
-            "backgroundColor": "#f7df1e",
-            "text": "JavaScript"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#2962ff",
-            "text": "MaterialUI"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#e34f26",
-            "text": "HTML5"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#2962ff",
-            "text": "CSS3"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#fe5000",
-            "text": "Express"
-          }
-        ],
-        "images": [
-          {
-            "src": "/portfolio/images/STI_top.png",
-            "alt": "stilab_detail_top",
-            "className": "top mb-5"
-          },
-          {
-            "src": "/portfolio/images/STI_middle_1.png",
-            "alt": "stilab_detail_middle_1",
-            "className": "middle mb-5"
-          },
-          {
-            "src": "/portfolio/images/STI_middle_2.png",
-            "alt": "stilab_detail_middle_2",
-            "className": "bottom mb-5"
-          }
-        ]
-      }
-    },
-    {
-      "src": "/portfolio/images/Moss.png",
-      "alt": "Moss",
-      "logo": "/portfolio/logos/moss_client_logo.png",
-      "logoAlt": "Moss Logo",
-      "projectName": "Moss",
-      "slug": "moss-portal",
-      "detailPageInfo": {
-        "url": "https://customers.mossinc.com",
-        "title": "Moss Customer Portal",
-        "details": "<p><strong>Project scope:</strong> My work on this project includes new feature building and bug squashing. I've worked on features for a new asset tracking option and product organization tools. The asset tracking option allows a customer to upload a floorplan for their assets and then drag-and-drop their assets onto the floorplan. This enables the customer to track their assets for maintenance and replacement. The product organization tools allow the products to be stored in catalogs for ease of finding and grouping specific products.</p>",
-        "roles": [
-          {
-            "role": "Developing frontend"
-          },
-          {
-            "role": "Connecting server side rendering and API"
-          },
-          {
-            "role": "Bug Squashing"
-          }
-        ],
-        "tech": [
-
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#6d50a2",
-            "text": "Aurelia"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#000000",
-            "text": "jQuery"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#e34f26",
-            "text": "HTML5"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#2962ff",
-            "text": "CSS3"
-          },
-          {
-            "color": "#000000",
-            "backgroundColor": "#f7df1e",
-            "text": "JavaScript"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#2962ff",
-            "text": "MaterialUI"
-          }
-        ],
-        "images": [
-          {
-            "src": "/portfolio/images/Moss_top.png",
-            "alt": "moss_detail_top",
-            "className": "top mb-5"
-          },
-          {
-            "src": "/portfolio/images/Moss_middle.png",
-            "alt": "moss_detail_middle",
-            "className": "middle mb-5"
-          },
-          {
-            "src": "/portfolio/images/Moss_bottom.png",
-            "alt": "moss_detail_bottom",
             "className": "middle mb-5"
           }
         ]
