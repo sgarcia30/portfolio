@@ -8,7 +8,7 @@
 
 
 #Technology Used
-This app was created using React, MaterialUI, HTML5, & Sass.
+This app was created using React, MaterialUI, HTML5, & SASS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
