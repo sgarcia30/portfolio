@@ -2,8 +2,15 @@
 @import '../../../styles/_typography';
 
 .navbar {
-  background-color: $dark-gray-blue !important;
-  color: $almost-white;
+  background-color: unset !important;
+  color: $black;
+  box-shadow: none !important;
+}
+
+.navbarScrolled {
+  background-color: $white !important;
+  color: $black;
+  box-shadow: none !important;
 }
 
 .logo-icon {
@@ -12,7 +19,7 @@
 }
 
 .contact-icons {
-  color: $almost-white;
+  color: $black;
   padding: 0 2px;
   display: inline-block;
 }
@@ -26,12 +33,17 @@
   padding-right: 15px;
 }
 
+.nav-button:hover {
+  color: rgba(0, 0, 0, .6) !important;
+}
+
+
 .navButton:hover {
-  background-color: $darker-gray-blue !important;
+  background-color: unset !important;
 }
 
 .nav-button {
-  color: $almost-white;
+  color: $black;
   font-family: $font-family-source-sans-pro !important;
   font-weight: $font-weight-bold;
   text-transform: none;
@@ -56,6 +68,7 @@ img {
 
 .social-container {
   display: inline-block;
+  padding-top: 8px;
 }
 
 .menu-icon {
@@ -68,6 +81,10 @@ img {
   width: 100%;
 }
 
+.contact-header {
+  color: $black;
+}
+
 @media (max-width: 360px) {
   .contact-header {
     visibility: hidden;
@@ -78,6 +95,7 @@ img {
 @media (max-width: 765px) {
   .menu-icon {
     visibility: visible;
+    color: $black !important;
   }
 
   .nav-button-container {
