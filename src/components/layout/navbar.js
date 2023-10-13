@@ -27,17 +27,29 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobileOpen: false
+      mobileOpen: false,
+      colorChange: false
     };
     this.handleDrawerToggle = this.handleDrawerToggle.bind(this);
+    this.changeNavbarColor = this.changeNavbarColor.bind(this);
   }
+
+  changeNavbarColor() {
+    console.log(window.scrollY, 'here')
+      if (window.scrollY >= 1) {
+          this.setState({...this.state, colorChange: true});
+      }
+      else {
+        this.setState({...this.state, colorChange: false});
+      }
+  };
 
   handleDrawerToggle(event) {
     let mobileOpen = this.state.mobileOpen;
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
     }
-    this.setState({ mobileOpen: !mobileOpen })
+    this.setState({ ...this.state, mobileOpen: !mobileOpen })
   }
 
   render() {
@@ -61,7 +73,7 @@ class NavBar extends React.Component {
         target: '_blank'
       }
     ]
-    console.log(navItems);
+    window.addEventListener('scroll', this.changeNavbarColor);
     const drawer = (
         <div
           role="presentation"
@@ -92,7 +104,7 @@ class NavBar extends React.Component {
     const classes = useStyles;
     return (
       <div className={classes.root}>
-        <AppBar position="fixed" className="navbar">
+        <AppBar position="fixed" className={this.state.colorChange ? 'navbarScrolled' : 'navbar'}>
           <Toolbar>
             <IconButton
               edge="start"
@@ -107,7 +119,7 @@ class NavBar extends React.Component {
               edge="start"
               className="menu-icon"
               onClick={this.handleDrawerToggle}
-              color="inherit"
+              color="default"
               aria-label="menu"
             >
               <MenuIcon />

@@ -2,9 +2,9 @@
 @import '../../../styles/_typography';
 
 .header-img {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
-  background: url("/portfolio/images/denisse-leon-XOQWBRvec5c-unsplash.jpg");
+  background: url("/portfolio/images/sebastian-svenson.jpg");
   background-position: center top;
   background-size: cover;
 }
@@ -24,7 +24,51 @@ hr {
 }
 
 .intro {
-  padding-top: 14%;
+  padding-top: 25vh;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.cta-button {
+  text-decoration: none;
+  color: $almost-white !important;
+  font-weight: $font-weight-bold !important;
+  font-size: 1.1rem !important;
+  margin-top: 25px !important;
+  background-color: $light-blue !important;
+  padding: 6px 30px !important;
+  font-family: $font-family-source-sans-pro !important;
+  text-transform: none !important;
+  margin-bottom: 10px !important;
+}
+
+.cta-button:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+.header-img::before {
+  animation: bounce 1s ease infinite;
+  bottom: 2rem;
+  color: #fff;
+  content: '╲╱';
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
 }
 
 @media (max-width: 415px) {
