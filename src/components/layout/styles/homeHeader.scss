@@ -2,7 +2,7 @@
 @import '../../../styles/_typography';
 
 .header-img {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background: url("/portfolio/images/sebastian-svenson.jpg");
   background-position: center top;
@@ -24,7 +24,28 @@ hr {
 }
 
 .intro {
-  padding-top: 14%;
+  padding-top: 25vh;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.cta-button {
+  text-decoration: none;
+  color: $almost-white !important;
+  font-weight: $font-weight-bold !important;
+  font-size: 1.1rem !important;
+  margin-top: 25px !important;
+  background-color: $light-blue !important;
+  padding: 6px 30px !important;
+  font-family: $font-family-source-sans-pro !important;
+  text-transform: none !important;
+  margin-bottom: 10px !important;
+}
+
+.cta-button:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.1);
+  transform-origin: center;
 }
 
 @media (max-width: 415px) {
