@@ -36,10 +36,10 @@ class HomeHeadeer extends React.Component {
               </p>
             </div>
             <div>
-            <a href='/portfolio/sarahanngarcia_resume.pdf' rel="noopener noreferrer" target="_blank" className="btn mx-auto view-site">
-              <Button className="cta-button">
-                View Resume
-              </Button>
+              <a href='/portfolio/sarahanngarcia_resume.pdf' rel="noopener noreferrer" target="_blank" className="btn mx-auto view-site">
+                <Button className="cta-button">
+                  View Resume
+                </Button>
               </a>
             </div>
           </div>

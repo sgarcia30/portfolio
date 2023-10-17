@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import { Card, CardContent } from '@material-ui/core';
 import { Link } from 'react-router-dom';
@@ -29,8 +30,16 @@ class ProjectDetail extends React.Component {
                       </div>
                       <div className='project-info'>
                         <div className="project_name">{project.projectName}</div>
-                        <div></div>
-                        <div></div>
+                        <div className='project-details'>
+                          {project.detailPageInfo.details}
+                        </div>
+                        <div className='project-cta'>
+                          <Link to={`/portfolio/work/${project.slug}`}>
+                            <Button className="cta-button">
+                              View Project Details
+                            </Button>
+                          </Link>
+                        </div>
                       </div>
                     </CardContent>
                   </Card>
