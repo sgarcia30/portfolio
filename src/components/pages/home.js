@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavBar, HomeHeader, Footer, ProjectDetail } from '../../components';
+import { NavBar, HomeHeader, Footer, ProjectDetail, Technology } from '../../components';
 // import './home-page.css';
 
 class Home extends React.Component {
@@ -9,6 +9,7 @@ class Home extends React.Component {
           <NavBar />
           <HomeHeader />
           <ProjectDetail />
+          <Technology />
           <Footer />
         </div>
     );

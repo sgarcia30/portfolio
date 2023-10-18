@@ -1,0 +1,27 @@
+@import '../../../styles/_variables';
+@import '../../../styles/_typography';
+
+#technology {
+    padding-top: 10rem;
+}
+
+.tech_item {
+    padding-bottom: 4em;
+}
+
+.title {
+    padding-bottom: 1.5em;
+}
+
+.tech_icon {
+    width: 80px;
+}
+
+.tech_title {
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+.tech_cta {
+    padding: 0 20rem;
+}
