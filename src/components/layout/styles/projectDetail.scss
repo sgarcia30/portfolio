@@ -10,6 +10,17 @@
     position: relative;
 }
 
+.fade-up {
+  transition: opacity 200ms ease-in, transform 400ms ease-in;
+  transform: translateY(20%);
+  opacity: 0;
+}
+
+.fade-up.appear {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .project-content {
     display: flex;
     padding: 0 !important;

@@ -2,12 +2,14 @@ const homePageHeaderOptions = {
     rootMargin: '-90% 0px 0px 0px'
 };
 
-export const homePageHeaderObserver = new IntersectionObserver((entries) => {
+const projectOptions = {
+    threshold: 0.2
+};
+
+const homePageHeaderObserver = new IntersectionObserver((entries) => {
     const header = document.querySelector('header');
     entries.forEach(entry => {
-        console.log('entry', entry.target);
         if (!entry.isIntersecting) {
-            console.log('header', header);
             header.classList.add('navbarScrolled');
             header.classList.remove('navbar');
         } else {
@@ -16,3 +18,18 @@ export const homePageHeaderObserver = new IntersectionObserver((entries) => {
         }
     });
 }, homePageHeaderOptions);
+
+const projectObserver = new IntersectionObserver((entries, projectObserver) => {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+            entry.target.classList.remove("appear");
+        } else if (entry.isIntersecting) {
+            entry.target.classList.add("appear");
+        }
+    });
+}, projectOptions);
+
+export {
+    homePageHeaderObserver,
+    projectObserver
+}
