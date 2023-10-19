@@ -52,7 +52,7 @@ class Work extends React.Component {
         <div className="work">
           <NavBar />
           <section id="project-detail">
-            <Grid container spacing={24}>
+            <Grid container spacing={10}>
               <Modal
                 open={this.state.open}
                 onClose={this.handleModalState}

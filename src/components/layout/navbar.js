@@ -27,22 +27,21 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobileOpen: false,
-      colorChange: false
+      mobileOpen: false
+      // colorChange: false
     };
     this.handleDrawerToggle = this.handleDrawerToggle.bind(this);
-    this.changeNavbarColor = this.changeNavbarColor.bind(this);
+    // this.changeNavbarColor = this.changeNavbarColor.bind(this);
   }
 
-  changeNavbarColor() {
-    console.log(window.scrollY, 'here')
-      if (window.scrollY >= 1) {
-          this.setState({...this.state, colorChange: true});
-      }
-      else {
-        this.setState({...this.state, colorChange: false});
-      }
-  };
+  // changeNavbarColor() {
+  //     if (window.scrollY >= 1) {
+  //         this.setState({...this.state, colorChange: true});
+  //     }
+  //     else {
+  //       this.setState({...this.state, colorChange: false});
+  //     }
+  // };
 
   handleDrawerToggle(event) {
     let mobileOpen = this.state.mobileOpen;
@@ -73,7 +72,7 @@ class NavBar extends React.Component {
         target: '_blank'
       }
     ]
-    window.addEventListener('scroll', this.changeNavbarColor);
+    // window.addEventListener('scroll', this.changeNavbarColor);
     const drawer = (
         <div
           role="presentation"
@@ -104,7 +103,7 @@ class NavBar extends React.Component {
     const classes = useStyles;
     return (
       <div className={classes.root}>
-        <AppBar position="fixed" className={this.state.colorChange ? 'navbarScrolled' : 'navbar'}>
+        <AppBar position="fixed" className={'navbar'} id='nav-id'>
           <Toolbar>
             <IconButton
               edge="start"

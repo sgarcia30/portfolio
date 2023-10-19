@@ -13,7 +13,7 @@ class Technology extends React.Component {
           My Technologies
         </div>
         <div className="container mx-auto px-0 align-content">
-          <Grid container spacing={24} className="grid-container">
+          <Grid container spacing={10} className="grid-container">
           {technologies.map((tech, key) => {
             return (
               <Grid key={key} item xs={6} sm={2} className="tech_item">

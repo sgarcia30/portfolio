@@ -12,8 +12,8 @@ class HomeHeadeer extends React.Component {
         <Grid
           container
           direction="row"
-          justify="left"
-          alignItems="left"
+          justify="flex-start"
+          alignItems="flex-start"
         >
         <div className="header-img">
           <div className="intro">
@@ -43,7 +43,7 @@ class HomeHeadeer extends React.Component {
               </a>
             </div>
           </div>
-          <div class="section"></div>
+          <div className="section"></div>
         </div>
         </Grid>
       </Container>
