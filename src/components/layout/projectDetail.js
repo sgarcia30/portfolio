@@ -18,7 +18,7 @@ const ProjectDetail = () => {
   
   return (
     <section id="project_links">
-      <div className="title">
+      <div className="title fade-up">
         Projects
       </div>
       <div className="container mx-auto px-0 align-content-">
