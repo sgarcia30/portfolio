@@ -19,7 +19,7 @@ const homePageHeaderObserver = new IntersectionObserver((entries) => {
     });
 }, homePageHeaderOptions);
 
-const projectObserver = new IntersectionObserver((entries, projectObserver) => {
+const projectObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
             entry.target.classList.remove("appear");
