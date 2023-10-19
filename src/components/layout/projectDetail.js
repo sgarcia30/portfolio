@@ -10,7 +10,6 @@ import { projectObserver } from '../../utils/observers';
 const ProjectDetail = () => {
   useEffect(() => {
     const faders = document.querySelectorAll(".fade-up");
-    console.log('faders', faders);
     faders.forEach(fader => {
       projectObserver.observe(fader);
     });
