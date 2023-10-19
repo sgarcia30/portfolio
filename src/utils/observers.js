@@ -1,15 +1,13 @@
-const header = document.querySelector('#nav-id');
-const homePageHeader = document.querySelector('.header-img');
-
 const homePageHeaderOptions = {
-    rootMargin: '-200px 0px 0px 0px'
+    rootMargin: '-90% 0px 0px 0px'
 };
 
-const homePageHeaderObserver = new IntersectionObserver(function(entries, homePageHeaderObserver) {
-    console.log('happening???');
+export const homePageHeaderObserver = new IntersectionObserver((entries) => {
+    const header = document.querySelector('header');
     entries.forEach(entry => {
         console.log('entry', entry.target);
         if (!entry.isIntersecting) {
+            console.log('header', header);
             header.classList.add('navbarScrolled');
             header.classList.remove('navbar');
         } else {
@@ -18,5 +16,3 @@ const homePageHeaderObserver = new IntersectionObserver(function(entries, homePa
         }
     });
 }, homePageHeaderOptions);
-
-homePageHeaderObserver.observe(homePageHeader);
