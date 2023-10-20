@@ -2,7 +2,7 @@
 @import '../../../styles/_typography';
 
 #bio {
-  padding-top: 130px;
+  padding-top: 75px;
 }
 
 .bio-img {
@@ -16,17 +16,6 @@
 
 .img-bio-grid {
   padding: 20px 40px;
-}
-
-.resume-button {
-  margin-top: 50px !important;
-  background-color: $light-blue !important;
-  padding: 8px 70px !important;
-  color: $almost-white !important;
-  font-family: $font-family-source-sans-pro !important;
-  text-transform: none !important;
-  font-weight: $font-weight-bold !important;
-  font-size: 1rem !important;
 }
 
 h1 {

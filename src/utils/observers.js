@@ -1,5 +1,5 @@
 const homePageHeaderOptions = {
-    rootMargin: '-90% 0px 0px 0px'
+    rootMargin: '-95% 0px 0px 0px'
 };
 
 const projectOptions = {
@@ -9,7 +9,21 @@ const projectOptions = {
 const homePageHeaderObserver = new IntersectionObserver((entries) => {
     const header = document.querySelector('header');
     entries.forEach(entry => {
+        console.log(entry);
         if (!entry.isIntersecting) {
+            header.classList.add('navbarScrolled');
+            header.classList.remove('navbar');
+        } else {
+            header.classList.add('navbar');
+            header.classList.remove('navbarScrolled');
+        }
+    });
+}, homePageHeaderOptions);
+
+const navObserver = new IntersectionObserver((entries) => {
+    const header = document.querySelector('header');
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
             header.classList.add('navbarScrolled');
             header.classList.remove('navbar');
         } else {
@@ -31,5 +45,6 @@ const projectObserver = new IntersectionObserver((entries) => {
 
 export {
     homePageHeaderObserver,
+    navObserver,
     projectObserver
 }
