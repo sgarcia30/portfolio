@@ -21,14 +21,14 @@
             "alt": "redux_icon"
         },
         { 
-            "title": "Next.js",
-            "src": "/portfolio/tech-icons/next_js.png",
-            "alt": "nextjs_icon"
-        },
-        { 
             "title": "Node.js",
             "src": "/portfolio/tech-icons/nodejs.png",
             "alt": "nodejs_icon"
+        },
+        { 
+            "title": "Next.js",
+            "src": "/portfolio/tech-icons/next_js.png",
+            "alt": "nextjs_icon"
         },
         { 
             "title": "Express",

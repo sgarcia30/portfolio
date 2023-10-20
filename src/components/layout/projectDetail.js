@@ -37,7 +37,7 @@ const ProjectDetail = () => {
                   <div className='project-info'>
                     <div className="project_name">{project.projectName}</div>
                     <div className='project-details'>
-                      {project.detailPageInfo.details}
+                      {project.detailPageInfo.description}
                     </div>
                     <div className='project-cta'>
                       <Link to={`/portfolio/work/${project.slug}`}>
