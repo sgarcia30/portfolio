@@ -1,0 +1,109 @@
+{
+    "technologies": [
+        { 
+            "title": "JavaScript",
+            "src": "/portfolio/tech-icons/js.png",
+            "alt": "javascript_icon"
+        },
+        { 
+            "title": "TypeScript",
+            "src": "/portfolio/tech-icons/typescript.png",
+            "alt": "typescript_icon"
+        },
+        { 
+            "title": "React",
+            "src": "/portfolio/tech-icons/react.png",
+            "alt": "react_icon"
+        },
+        { 
+            "title": "Redux",
+            "src": "/portfolio/tech-icons/redux.png",
+            "alt": "redux_icon"
+        },
+        { 
+            "title": "Node.js",
+            "src": "/portfolio/tech-icons/nodejs.png",
+            "alt": "nodejs_icon"
+        },
+        { 
+            "title": "Next.js",
+            "src": "/portfolio/tech-icons/next_js.png",
+            "alt": "nextjs_icon"
+        },
+        { 
+            "title": "Express",
+            "src": "/portfolio/tech-icons/express.png",
+            "alt": "express_icon"
+        },
+        { 
+            "title": "MongoDB",
+            "src": "/portfolio/tech-icons/mongodb.png",
+            "alt": "mongodb_icon"
+        },
+        { 
+            "title": "PostgreSQL",
+            "src": "/portfolio/tech-icons/postgresql.png",
+            "alt": "postgresql_icon"
+        },
+        { 
+            "title": "MySQL",
+            "src": "/portfolio/tech-icons/mysql.png",
+            "alt": "mysql_icon"
+        },
+        { 
+            "title": "AWS S3",
+            "src": "/portfolio/tech-icons/aws_s3.png",
+            "alt": "awss3_icon"
+        },
+        { 
+            "title": "HTML5",
+            "src": "/portfolio/tech-icons/html-5.png",
+            "alt": "html5_icon"
+        },
+        { 
+            "title": "CSS3",
+            "src": "/portfolio/tech-icons/css.png",
+            "alt": "css3_icon"
+        },
+        { 
+            "title": "Tailwind",
+            "src": "/portfolio/tech-icons/tailwind_css.png",
+            "alt": "tailwindcss_icon"
+        },
+        { 
+            "title": "Material UI",
+            "src": "/portfolio/tech-icons/material-ui.png",
+            "alt": "materialui_icon"
+        },
+        { 
+            "title": "React-md",
+            "src": "/portfolio/tech-icons/react-md.png",
+            "alt": "reactmd_icon"
+        },
+        { 
+            "title": "SASS",
+            "src": "/portfolio/tech-icons/SASS.png",
+            "alt": "sass_icon"
+        },
+        { 
+            "title": "Swagger",
+            "src": "/portfolio/tech-icons/swagger.png",
+            "alt": "swagger_icon"
+        },
+        { 
+            "title": "Jest",
+            "src": "/portfolio/tech-icons/jest.png",
+            "alt": "jest_icon"
+        },
+        { 
+            "title": "Cypress",
+            "src": "/portfolio/tech-icons/cypress.png",
+            "alt": "cypress_icon"
+        },
+        { 
+            "title": "Python",
+            "src": "/portfolio/tech-icons/python.png",
+            "alt": "python_icon"
+        }
+    ]
+}

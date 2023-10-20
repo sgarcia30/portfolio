@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useEffect, useRef} from 'react';
 import { NavBar, Footer, Skills, Bio } from '../../components';
+import { navObserver } from '../../utils/observers';
 
-class About extends React.Component {
-  render() {
+const About = () => {
+  const aboutSection = useRef();
+  useEffect(() => {
+    navObserver.observe(aboutSection.current);
+  });
     return (
-        <div className="about">
-          <NavBar />
-          <Bio />
-          <Skills />
-          <Footer />
-        </div>
-    );
-  }
+      <div className="about" ref={aboutSection}>
+        <NavBar />
+        <Bio />
+        <Skills />
+        <Footer />
+      </div>
+  );
 }
 
 export default About;

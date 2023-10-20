@@ -7,6 +7,7 @@ import Skills from './layout/skills';
 import Bio from './layout/bio';
 import ProjectImgs from './layout/projectImgs';
 import ProjectDetails from './layout/projectDetails';
+import Technology from './layout/technology';
 
 /* Page Components */
 import Main from './pages/main';
@@ -26,5 +27,6 @@ export {
   ProjectDetails,
   ProjectImgs,
   Skills,
+  Technology,
   Work
 };
