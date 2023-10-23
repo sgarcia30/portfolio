@@ -21,7 +21,7 @@ const ProjectDetail = () => {
         Projects
       </div>
       <div className="container mx-auto px-0 align-content-">
-        <Grid container spacing={10} className="grid-container">
+        <Grid container spacing={0} className="grid-container">
         {projects.map((project, key) => {
           return (
             <Grid id={key} key={key} item xs={12} sm={12} className="project-item fade-up">
