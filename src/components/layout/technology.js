@@ -22,7 +22,7 @@ const Technology = () => {
         <Grid container spacing={10} className="grid-container">
         {technologies.map((tech, key) => {
           return (
-            <Grid key={key} item xs={6} sm={2} className="tech_item fade-up">
+            <Grid key={key} item xs={6} sm={4} md={2} className="tech_item fade-up">
               <img src={tech.src} alt={tech.alt} className="tech_icon"/>
               <div className='tech_title'>{tech.title}</div>
             </Grid>
