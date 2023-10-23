@@ -37,10 +37,7 @@ const ProjectDetail = () => {
                   <div className='project-info'>
                     <div className="project_name">{project.projectName}</div>
                     <div className='project-details'>
-                      <span className="text">
-                        {project.detailPageInfo.description}
-                      </span>
-                      <span className="more">...</span>
+                      {project.detailPageInfo.description}
                     </div>
                     <div className='project-cta'>
                       <Link to={`/portfolio/work/${project.slug}`}>
