@@ -65,18 +65,6 @@ hr {
   width: 6rem;
 }
 
-.project-animation {
-  animation-name: fadeup;
-  animation-iteration-count: 1;
-  animation-duration: 0.4s;
-}
-
-@keyframes fadeup {
-  50% {
-    transform: translateY(50%);
-  }
-}
-
 @keyframes bounce {
   50% {
     transform: translateY(-50%);

@@ -24,6 +24,7 @@
 .project-content {
     display: flex;
     padding: 0 !important;
+    flex-direction: row;
 }
 
 .project-media {
@@ -39,8 +40,6 @@
 
 .project-cta {
     text-align: left;
-    position: absolute;
-    bottom: 1.5em;
 }
 
 .project-details {
@@ -111,8 +110,45 @@
   padding: 0 20rem;
 }
 
-@media (max-width: 1023px) {
+.more {
+    visibility: hidden;
+}
+
+.text {
+    display: inline-block;
+}
+
+@media (max-width: 1300px) {
   .grid-container {
     padding: 0;
   }
+}
+
+@media (max-width: 600px) {
+    .project-content {
+        flex-direction: column;
+    }
+
+    .project-media {
+        flex: 1 0 50%;
+        margin-left: auto;
+        margin-right: auto;
+        width: unset;
+        position: relative;
+    }
+
+    .logo-container {
+        width: 100%;
+    }
+
+    .overlay {
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .project-info {
+        width: 100%;
+        flex: 1 0 50%;
+    }
 }
