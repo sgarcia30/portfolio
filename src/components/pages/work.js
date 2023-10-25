@@ -26,7 +26,7 @@ const Work = (props) => {
           <section id="project-detail">
             <Grid container spacing={10}>
               <Grid item xs={12} sm={12} className="img-detail-grid">
-                <ProjectDetails  data={project.detailPageInfo}/>
+                <ProjectDetails data={project.detailPageInfo}/>
               </Grid>
             </Grid>
           </section>

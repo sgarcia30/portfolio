@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Modal from '@material-ui/core/Modal';
 import { ProjectImgs } from '../../components';
+import { projectObserver } from '../../utils/observers';
 import './styles/projectDetails.scss';
 
 function getModalStyle() {
@@ -22,6 +23,13 @@ const ProjectDetails = (props) => {
   const { data: detailPageInfo } = props
   const [image, setImage] = useState({});
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const faders = document.querySelectorAll(".fade-up");
+    faders.forEach(fader => {
+      projectObserver.observe(fader);
+    });
+  }, []);
 
   const modalData = (image) => {
     setImage(image);
@@ -43,23 +51,25 @@ const ProjectDetails = (props) => {
           <img src={image.src} alt={image.alt} className="modal-img" />
         </div>
       </Modal>
-      <h2>{detailPageInfo.title}</h2>
-      <hr />
       <div>
-        <div className="detail-text">
-          {detailPageInfo.description}
-          {(detailPageInfo.url && detailPageInfo.url.length) &&
-            (<div className="bottom-button-container">
-              <a href={detailPageInfo.url} rel="noopener noreferrer" target="_blank" className="btn mx-auto view-site">
-                <Button className="cta-button">
-                  View Live Site
-                </Button>
-              </a>
-            </div>)
-          }
+        <div className='fade-up'>
+          <h2>{detailPageInfo.title}</h2>
+          <hr />
+          <div className="detail-text">
+            {detailPageInfo.description}
+            {(detailPageInfo.url && detailPageInfo.url.length) &&
+              (<div className="bottom-button-container">
+                <a href={detailPageInfo.url} rel="noopener noreferrer" target="_blank" className="btn mx-auto view-site">
+                  <Button className="cta-button">
+                    View Live Site
+                  </Button>
+                </a>
+              </div>)
+            }
+          </div>
         </div>
         <hr />
-        <div className="project-about">
+        <div className="project-about fade-up">
           {detailPageInfo.roles &&
             (<div className="project-role">
               <h3 className='project-title'>Role</h3>
@@ -75,7 +85,7 @@ const ProjectDetails = (props) => {
             </div>
           )}
           {(detailPageInfo.tech) && (
-            <div className='project-tech'>
+            <div className='project-tech fade-up'>
               <h3 className='project-title'>Tech Stack</h3>
               <div className="tech-container">
                 { detailPageInfo.tech.map((tech, key) => {
@@ -90,7 +100,7 @@ const ProjectDetails = (props) => {
           )}
         </div>
         <hr />
-        <div className='project-writeup'>
+        <div className='project-writeup fade-up'>
           <h3 className='project-title'>Problem</h3>
           <div className='project-problem'>{detailPageInfo.problem}</div>
           <h3 className='project-title'>Solution</h3>
