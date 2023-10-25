@@ -14,15 +14,6 @@ import ListItem from '@material-ui/core/ListItem';
 import Drawer from '@material-ui/core/Drawer';
 import './styles/navbar.scss';
 
-const useStyles = {
-  root: {
-    flexGrow: 1,
-  },
-  title: {
-    flexGrow: 1,
-  },
-};
-
 const NavBar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -80,9 +71,9 @@ const NavBar = () => {
         </List>
       </div>
     );
-  const classes = useStyles;
+  
   return (
-    <div className={classes.root}>
+    <div style={{ flexGrow: 1 }}>
       <AppBar position="fixed" className={'navbar'} id='nav-id'>
         <Toolbar>
           <IconButton

@@ -2,6 +2,11 @@ const homePageHeaderOptions = {
     rootMargin: '-95% 0px 0px 0px'
 };
 
+const workPageOptions = {
+    rootMargin: '-12% 0px 0px 0px',
+    threshold: 0
+};
+
 const projectOptions = {
     threshold: 0.2
 };
@@ -19,6 +24,20 @@ const homePageHeaderObserver = new IntersectionObserver((entries) => {
         }
     });
 }, homePageHeaderOptions);
+
+const workPageObserver = new IntersectionObserver((entries) => {
+    const header = document.querySelector('header');
+    entries.forEach(entry => {
+        console.log(entry);
+        if (!entry.isIntersecting) {
+            header.classList.add('navbarScrolled');
+            header.classList.remove('navbar');
+        } else {
+            header.classList.add('navbar');
+            header.classList.remove('navbarScrolled');
+        }
+    });
+}, workPageOptions);
 
 const navObserver = new IntersectionObserver((entries) => {
     const header = document.querySelector('header');
@@ -46,5 +65,6 @@ const projectObserver = new IntersectionObserver((entries) => {
 export {
     homePageHeaderObserver,
     navObserver,
-    projectObserver
+    projectObserver,
+    workPageObserver
 }
