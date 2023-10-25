@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { NavBar, Footer, ProjectImgs, ProjectDetails } from '../../components';
+import { NavBar, Footer, ProjectImgs, ProjectDetails, WorkHeader } from '../../components';
 import Grid from '@material-ui/core/Grid';
 import Modal from '@material-ui/core/Modal';
 import { navObserver } from '../../utils/observers';
@@ -16,14 +16,26 @@ function getModalStyle() {
 }
 
 const Work = (props) => {
+  const slug = props.match.params.slug;
+  let classes = getModalStyle();
   const projecDetail = useRef();
   const [image, setImage] = useState({});
   const [open, setOpen] = useState(false);
+  const [project, setProject] = useState();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    navObserver.observe(projecDetail.current);
-  }, []);
+    if (projecDetail?.current) navObserver.observe(projecDetail.current);
+  }, [projecDetail]);
+
+  useEffect(() => {
+    if (slug) {
+      const foundProject = projects.find(project => {
+        return project.slug === slug;
+      });
+      setProject(foundProject);
+    }
+  }, [slug]);
 
   const handleModalState = () => {
     setOpen(prevVal => !prevVal);
@@ -33,15 +45,13 @@ const Work = (props) => {
     setImage(image);
     setOpen(prevVal => !prevVal);
   }
-    let classes = getModalStyle();
-    let slug = props.match.params.slug;
-    let project = projects.find(project => {
-      return project.slug === slug;
-    });
 
   return (
+    <>
+    {project && (
       <div className="work" ref={projecDetail}>
         <NavBar />
+        <WorkHeader project={project} />
         <section id="project-detail">
           <Grid container spacing={10}>
             <Modal
@@ -64,6 +74,8 @@ const Work = (props) => {
         </section>
         <Footer />
       </div>
+      )}
+    </>
   );
 }
 
