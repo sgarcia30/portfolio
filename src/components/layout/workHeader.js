@@ -9,7 +9,6 @@ const WorkHeader = (props) => {
   const workHeader = useRef();
   const { project } = props;
   useEffect(() => {
-    console.log(workHeader.current);
     workPageObserver.observe(workHeader.current);
   });
 

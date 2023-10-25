@@ -3,7 +3,7 @@ const homePageHeaderOptions = {
 };
 
 const workPageOptions = {
-    rootMargin: '-12% 0px 0px 0px',
+    rootMargin: '-50% 0px 0px 0px',
     threshold: 0
 };
 
@@ -28,7 +28,6 @@ const homePageHeaderObserver = new IntersectionObserver((entries) => {
 const workPageObserver = new IntersectionObserver((entries) => {
     const header = document.querySelector('header');
     entries.forEach(entry => {
-        console.log(entry);
         if (!entry.isIntersecting) {
             header.classList.add('navbarScrolled');
             header.classList.remove('navbar');
