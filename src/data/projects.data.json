@@ -82,11 +82,11 @@
       "alt": "STI Lab",
       "logo": "/portfolio/logos/sti-logo.svg",
       "logoAlt": "STI Lab Logo",
-      "projectName": "Specialized Testing, Inc",
+      "projectName": "Specialized Testing Inc",
       "slug": "sti-lab",
       "detailPageInfo": {
         "url": "https://stilabs.specializedtesting.com",
-        "title": "STILabs",
+        "title": "STI Labs",
         "description": "Specialized Testing is a materials testing company that’s been in business for over 30 years.  They needed help automating and modernizing their internal processes, so they could be freed up to serve their customers better, lower costs, and drive revenue.  We built a custom application that automates manual tasks like keeping track of each material testing specimen, the testing results, and even report generation.",
         "details": "<p><strong>Project scope:</strong> Design a website for a concrete testing business to be used as a management tool. The project included specimen pickup, tracking, testing results, reporting, and invoicing. It was designed using Next.js, React, Node.js, and MaterialUI.</p>",
         "roles": [

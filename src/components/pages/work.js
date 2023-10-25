@@ -61,11 +61,11 @@ const Work = (props) => {
                   <img src={image.src} alt={image.alt} className="modal-img" />
                 </div>
               </Modal>
-              <Grid item xs={12} sm={6} className="img-detail-grid">
-                <ProjectImgs modalData={modalData} data={project.detailPageInfo}/>
-              </Grid>
-              <Grid item xs={12} sm={6} className="img-detail-grid">
+              <Grid item xs={12} sm={12} className="img-detail-grid">
                 <ProjectDetails  data={project.detailPageInfo}/>
+              </Grid>
+              <Grid item xs={12} sm={12} className="img-detail-grid">
+                <ProjectImgs modalData={modalData} data={project.detailPageInfo}/>
               </Grid>
             </Grid>
           </section>
