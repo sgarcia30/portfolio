@@ -8,10 +8,14 @@
       "projectName": "eBacMap",
       "slug": "ebacmap",
       "detailPageInfo": {
+        "nextProjectSlug": "sti-lab",
         "url": "",
         "title": "eBacMap",
         "description": "eBacMap is a leader in environmental pathogen monitoring.  They utilize a unique heat mapping system to visualize environmental testing trends.  We supported their existing application before rebuilding it to better meet their customer needs, provide a more modern solution, and make it easier for their customers to add test results and monitor trends.",
         "details": "<p><strong>Project scope:</strong> Design a website for an environmental pathogen management company. The project included a user management system, a billing system, specialized report building and animations, a test scheduling feature, and a test result management system. It was designed using Next.js, React, Node.js, Typescript, and React-md.</p>",
+        "problem": "",
+        "solution": "",
+        "result": "",
         "roles": [
           {
             "role": "Developing frontend"
@@ -80,10 +84,14 @@
       "projectName": "Specialized Testing Inc",
       "slug": "sti-lab",
       "detailPageInfo": {
+        "nextProjectSlug": "moss",
         "url": "https://stilabs.specializedtesting.com",
         "title": "STI Labs",
         "description": "Specialized Testing is a materials testing company that’s been in business for over 30 years.  They needed help automating and modernizing their internal processes, so they could be freed up to serve their customers better, lower costs, and drive revenue.  We built a custom application that automates manual tasks like keeping track of each material testing specimen, the testing results, and even report generation.",
         "details": "<p><strong>Project scope:</strong> Design a website for a concrete testing business to be used as a management tool. The project included specimen pickup, tracking, testing results, reporting, and invoicing. It was designed using Next.js, React, Node.js, and MaterialUI.</p>",
+        "problem": "",
+        "solution": "",
+        "result": "",
         "roles": [
           {
             "role": "Developing frontend"
@@ -164,12 +172,16 @@
       "logo": "/portfolio/logos/moss_client_logo.png",
       "logoAlt": "Moss Logo",
       "projectName": "Moss",
-      "slug": "moss-portal",
+      "slug": "moss",
       "detailPageInfo": {
+        "nextProjectSlug": "renew-our-schools",
         "url": "https://customers.mossinc.com",
         "title": "Moss Customer Portal",
         "description": "Moss is a place maker, they provide solutions for tension fabric structures, wide format graphics, and specialty signage to transform spaces into impactful places. They contacted us to help them connect with their customers more easily and streamline their ordering process.  With our unique web application, their customers can now get instant order updates, create new quotes, chat directly with the project manager, and make approvals on orders.",
         "details": "<p><strong>Project scope:</strong> My work on this project includes new feature building and bug squashing. I've worked on features for a new asset tracking option and product organization tools. The asset tracking option allows a customer to upload a floorplan for their assets and then drag-and-drop their assets onto the floorplan. This enables the customer to track their assets for maintenance and replacement. The product organization tools allow the products to be stored in catalogs for ease of finding and grouping specific products.</p>",
+        "problem": "",
+        "solution": "",
+        "result": "",
         "roles": [
           {
             "role": "Developing frontend"
@@ -241,9 +253,13 @@
       "projectName": "Renew Our Schools",
       "slug": "renew-our-schools",
       "detailPageInfo": {
+        "nextProjectSlug": "the-reel-hope-project",
         "url": "",
         "title": "Renew Our Schools",
         "description": "Renew Our Schools is an energy education program utilized in schools across the nation to teach students and staff alike about smart energy consumption. This program required a custom web application that not only gives educators comprehensive tools to ensure they’re meeting critical learning standards for the classroom but also provides an interactive tool for students to submit their actions and track their progress.",
+        "problem": "",
+        "solution": "",
+        "result": "",
         "details": "<p><strong>Project scope:</strong> Design a website for educating children on saving energy. The project included an administration management system, a billing system, customizable competition creation, student progress tracking, and a student submission and review feature. It was designed using Next.js, React, Node.js, Typescript, and Tailwind.</p>",
         "roles": [
           {
@@ -325,10 +341,14 @@
       "projectName": "The Reel Hope Project",
       "slug": "the-reel-hope-project",
       "detailPageInfo": {
+        "nextProjectSlug": "paradeigm",
         "url": "https://thereelhopeproject.org/",
         "title": "The Reel Hope Project",
         "description": "The Reel Hope Project creates videos for youth experiencing foster care to find a forever family.  They initially reached out to us because of site crashing issues and data vulnerability.  Once the site had been restored we developed their site on a platform that was reliable and secure and developed site improvements to allow independent edits and new page creations.",
         "details": "<p><strong>Project scope:</strong> Design a website for helping children in foster care find forever homes. The project included an administration management system, a page builder, and a platform for helping foster children find forever homes. It was designed using Next.js, React, Node.js, Typescript, and Tailwind.</p>",
+        "problem": "",
+        "solution": "",
+        "result": "",
         "roles": [
           {
             "role": "Developing frontend application"
@@ -402,10 +422,14 @@
       "projectName": "Paradeigm: SD Beer",
       "slug": "paradeigm",
       "detailPageInfo": {
+        "nextProjectSlug": "ebacmap",
         "url": "",
         "title": "SD Beer",
         "description": "SD Beer was created by the San Diego Brewers Guild to increase awareness and visibility of fresh locally brewed beer.  I contracted with Paradeigm to create a blogging feature to continue the mission of promoting awareness.  The feature included a blog post creation and editing platform for administration and a public-facing site to view the blog posts.",
         "details": "<p>The scope of this project was to create a blog posting feature for Paradeigm LLC's customer, San Diego Brewers Guild. The blogging feature includes a blog post creation and editing platform for administration, and a public facing site for viewing the blog posts. The backend for the site, including: getting, posting, editing, and deleting endpoints, were created from scratch using NodeJS. The blog post creation and editing forms were created using Quill an open source WYSIWYG editor. The components were styled using Foundation as a grid framework.</p>",
+        "problem": "",
+        "solution": "",
+        "result": "",
         "roles": [
           {
             "role": "Developing frontend features"

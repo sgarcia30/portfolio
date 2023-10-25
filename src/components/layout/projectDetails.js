@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
-import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Modal from '@material-ui/core/Modal';
 import { ProjectImgs } from '../../components';
 import './styles/projectDetails.scss';
@@ -100,13 +101,14 @@ const ProjectDetails = (props) => {
         </div>
         <hr />
         <div className="bottom-button-container">
-            <a href="/portfolio/#project_links">
-              <Button className="cta-button">
-                <ArrowBackIcon className="back-icon" fontSize="default"/> All Work
-              </Button>
-            </a>
-          </div>
+          <Link to={`/portfolio/work/${detailPageInfo.nextProjectSlug}`}>
+            <Button className="cta-button">
+              Next Project
+              <ArrowForwardIcon className="forward-icon" fontSize="default"/>
+            </Button>
+          </Link>
         </div>
+      </div>
     </div>
   );
 };

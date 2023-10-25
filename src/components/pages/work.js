@@ -4,12 +4,9 @@ import Grid from '@material-ui/core/Grid';
 import { projects } from '../../data/projects.data.json';
 
 const Work = (props) => {
+  window.scrollTo(0, 0);
   const slug = props.match.params.slug;
   const [project, setProject] = useState();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   useEffect(() => {
     if (slug) {
