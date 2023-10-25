@@ -68,11 +68,6 @@
             "src": "/portfolio/images/ebacmap_report_graph.jpeg",
             "alt": "ebacmap_detail_middle_3",
             "className": "middle mb-5"
-          },
-          {
-            "src": "/portfolio/images/ebacmap_test_results.jpeg",
-            "alt": "ebacmap_detail_middle_4",
-            "className": "middle mb-5"
           }
         ]
       }
@@ -307,11 +302,6 @@
           {
             "src": "/portfolio/images/ros_actions.jpeg",
             "alt": "ros_detail_middle_3",
-            "className": "middle mb-5"
-          },
-          {
-            "src": "/portfolio/images/ros_action_modal.jpeg",
-            "alt": "ros_detail_middle_4",
             "className": "middle mb-5"
           },
           {
