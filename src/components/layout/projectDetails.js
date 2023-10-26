@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Modal from '@material-ui/core/Modal';
 import Parser from 'html-react-parser';
@@ -142,8 +143,14 @@ const ProjectDetails = (props) => {
         </div>
         <hr />
         <div className="bottom-button-container">
+          <Link to={`/portfolio/work/${detailPageInfo.prevProjectSlug}`}>
+            <Button className="back-button">
+              <ArrowBackIcon className="back-icon" fontSize="default"/>
+              Previous Project
+            </Button>
+          </Link>
           <Link to={`/portfolio/work/${detailPageInfo.nextProjectSlug}`}>
-            <Button className="cta-button">
+            <Button className="back-button" style={{ marginLeft: '6em'}}>
               Next Project
               <ArrowForwardIcon className="forward-icon" fontSize="default"/>
             </Button>

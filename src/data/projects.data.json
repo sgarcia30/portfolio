@@ -9,6 +9,7 @@
       "slug": "ebacmap",
       "detailPageInfo": {
         "nextProjectSlug": "sti-lab",
+        "prevProjectSlug": "paradeigm",
         "url": "",
         "title": "eBacMap",
         "description": "eBacMap is a leader in environmental pathogen monitoring.  They utilize a unique heat mapping system to visualize environmental testing trends.  We supported their existing application before rebuilding it to better meet their customer needs, provide a more modern solution, and make it easier for their customers to add test results and monitor trends.",
@@ -27,10 +28,10 @@
         },
         "result": {
           "bullet_points": [
-            "<strong>Pathogen Trend Monitoring</strong>: The customizable report builder allows users to filter test results to track specific pathogens and/or test locations and/or test types over specific time periods (along with a variety of other customizable options).  It also, allows the data to be visualized utilizing a bar graph, a line graph, a time-lapsed heat map, or even with trend rings.",
-            "<strong>Dashboard</strong>: The application dashboard now offers a variety of widget options so a user can see prominent data for their location at a glance.  The widget options include condensed reports, sample scheduling highlights, audit report numbers, specific condensed report types, and more.",
-            "<strong>UI/UX</strong>: The updated user interface and user experience are not only intuitive, they’re also smooth, fast, and efficient.  The app is stable and utilizes user-centric error handling so the end users receive error messages that are appropriate and next steps if the issue cannot be resolved by the end user.",
-            "<strong>Test Result Handling</strong>: The updated test result table enables a user to view from 10 to 100 results at once, and includes table sorting, filtering, and pagination.  The test result upload feature allows for results to be uploaded from a .xls file, it uses dynamic field mapping, data validation, and review options.  It also returns any test results that were unable to be uploaded with a stated reason, so the data can be corrected and re-uploaded."
+            "<strong>Pathogen Trend Monitoring:</strong> The customizable report builder allows users to filter test results to track specific pathogens and/or test locations and/or test types over specific time periods (along with a variety of other customizable options).  It also, allows the data to be visualized utilizing a bar graph, a line graph, a time-lapsed heat map, or even with trend rings.",
+            "<strong>Dashboard:</strong> The application dashboard now offers a variety of widget options so a user can see prominent data for their location at a glance.  The widget options include condensed reports, sample scheduling highlights, audit report numbers, specific condensed report types, and more.",
+            "<strong>UI/UX:</strong> The updated user interface and user experience are not only intuitive, they’re also smooth, fast, and efficient.  The app is stable and utilizes user-centric error handling so the end users receive error messages that are appropriate and next steps if the issue cannot be resolved by the end user.",
+            "<strong>Test Result Handling:</strong> The updated test result table enables a user to view from 10 to 100 results at once, and includes table sorting, filtering, and pagination.  The test result upload feature allows for results to be uploaded from a .xls file, it uses dynamic field mapping, data validation, and review options.  It also returns any test results that were unable to be uploaded with a stated reason, so the data can be corrected and re-uploaded."
           ]
         },
         "roles": [
@@ -102,6 +103,7 @@
       "slug": "sti-lab",
       "detailPageInfo": {
         "nextProjectSlug": "moss",
+        "prevProjectSlug": "ebacmap",
         "url": "https://stilabs.specializedtesting.com",
         "title": "STI Labs",
         "description": "Specialized Testing is a materials testing company that’s been in business for over 30 years.  They needed help automating and modernizing their internal processes, so they could be freed up to serve their customers better, lower costs, and drive revenue.  We built a custom application that automates manual tasks like keeping track of each material testing specimen, the testing results, and even report generation.",
@@ -118,9 +120,9 @@
         },
         "result": {
           "bullet_points": [
-            "<strong>Dashboard</strong>: The application dashboard shows highlights for the business including specimen pickups for today, monthly revenue to date, and report statistics.  It also includes collapsed tables that can be expanded that include information about tests, pickups, specimens, and reports.  All data that is available at the user’s fingertips so they can stay on top of day-to-day tasks and keep the business running smoothly.",
-            "<strong>Specimen Handling</strong>: From scheduling a pickup to recording test results the new STI application does it all.  Users can easily schedule the pickup, assign it to a driver, schedule when the sample will be tested, and then record those test results all within the application.  This system not only saves time but has increased revenue for STI.",
-            "<strong>Report Generation</strong>: Once all samples have been tested and their test results recorded, a report is generated that shows all the technician's findings along with the test parameters and the ASTM standards adhered to.  These reports are then automatically sent to the customer email on file ensuring all completed results are available for the customer as soon as possible."
+            "<strong>Dashboard:</strong> The application dashboard shows highlights for the business including specimen pickups for today, monthly revenue to date, and report statistics.  It also includes collapsed tables that can be expanded that include information about tests, pickups, specimens, and reports.  All data that is available at the user’s fingertips so they can stay on top of day-to-day tasks and keep the business running smoothly.",
+            "<strong>Specimen Handling:</strong> From scheduling a pickup to recording test results the new STI application does it all.  Users can easily schedule the pickup, assign it to a driver, schedule when the sample will be tested, and then record those test results all within the application.  This system not only saves time but has increased revenue for STI.",
+            "<strong>Report Generation:</strong> Once all samples have been tested and their test results recorded, a report is generated that shows all the technician's findings along with the test parameters and the ASTM standards adhered to.  These reports are then automatically sent to the customer email on file ensuring all completed results are available for the customer as soon as possible."
           ]
         },
         "roles": [
@@ -206,20 +208,26 @@
       "slug": "moss",
       "detailPageInfo": {
         "nextProjectSlug": "renew-our-schools",
+        "prevProjectSlug": "sti-lab",
         "url": "https://customers.mossinc.com",
         "title": "Moss Customer Portal",
         "description": "Moss is a place maker, they provide solutions for tension fabric structures, wide format graphics, and specialty signage to transform spaces into impactful places. They contacted us to help them connect with their customers more easily and streamline their ordering process.  With our unique web application, their customers can now get instant order updates, create new quotes, chat directly with the project manager, and make approvals on orders.",
         "details": "<p><strong>Project scope:</strong> My work on this project includes new feature building and bug squashing. I've worked on features for a new asset tracking option and product organization tools. The asset tracking option allows a customer to upload a floorplan for their assets and then drag-and-drop their assets onto the floorplan. This enables the customer to track their assets for maintenance and replacement. The product organization tools allow the products to be stored in catalogs for ease of finding and grouping specific products.</p>",
         "problem": {
-          "headline": "",
-          "bullet_points": []
+          "headline": "When I started work on this project the customer had 2 main concerns:",
+          "bullet_points": [
+            "Not being able to track assets once they entered the field.",
+            "A disorganized product list that was hard to use."
+          ]
         },
         "solution": {
-          "headline": ""
+          "headline": "To address these concerns, we designed an asset tracking option to allow a customer to upload a floorplan for their assets and then drag and drop their assets onto the floorplan. We also designed a solution for organizing the customer's products that is intuitive and scalable no matter how large a customer’s product list is."
         },
         "result": {
-          "headline": "",
-          "bullet_points": []
+          "bullet_points": [
+            "<strong>Asset Tracker:</strong> The asset tracker is easy to use with a drag-and-drop interface that allows assets to be placed in a customizable location for any asset map uploaded.  This enables customers to track their assets for maintenance and replacement.",
+            "<strong>Product Organizer:</strong> The product organization tool allows the products to be stored in catalogs for ease of finding and grouping specific products."
+          ]
         },
         "roles": [
           {
@@ -293,19 +301,25 @@
       "slug": "renew-our-schools",
       "detailPageInfo": {
         "nextProjectSlug": "the-reel-hope-project",
+        "prevProjectSlug": "moss",
         "url": "",
         "title": "Renew Our Schools",
         "description": "Renew Our Schools is an energy education program utilized in schools across the nation to teach students and staff alike about smart energy consumption. This program required a custom web application that not only gives educators comprehensive tools to ensure they’re meeting critical learning standards for the classroom but also provides an interactive tool for students to submit their actions and track their progress.",
         "problem": {
-          "headline": "",
-          "bullet_points": []
+          "headline": "The Renew Our Schools application sought to address the following challenges:",
+          "bullet_points": [
+            "Needing an administration management system for overseeing the school accounts and competitions.",
+            "Needing the application to allow classes to see competition information, participate in the competition, and track progress."
+          ]
         },
         "solution": {
-          "headline": ""
+          "headline": "To address these challenges, we designed a custom application using Next.js, React, Node.js, TypeScript, and Tailwind CSS.  We created a system that had an administration and student portal.  The admin portal allows an administrator to manage school accounts, create competitions, create content for competitions, review student submissions, and so much more.  The student portal allows a class to view their competition standing, view actions for the competition, submit their actions, and more."
         },
         "result": {
-          "headline": "",
-          "bullet_points": []
+          "bullet_points": [
+            "<strong>Administration Portal:</strong> The admin portal is intuitive, clean, and customizable.  Administrators can easily manage competitions, oversee school accounts, and generate promo codes for competition signup costs.",
+            "<strong>Student Portal:</strong> The student portal is interactive, engaging, educational, and easy to use.  It helps students and educators alike engage in learning about energy consumption.  From the dashboard that shows the class’ competition standing to the action cards with easy-to-use submission forms, this application does not disappoint."
+          ]
         },
         "details": "<p><strong>Project scope:</strong> Design a website for educating children on saving energy. The project included an administration management system, a billing system, customizable competition creation, student progress tracking, and a student submission and review feature. It was designed using Next.js, React, Node.js, Typescript, and Tailwind.</p>",
         "roles": [
@@ -389,6 +403,7 @@
       "slug": "the-reel-hope-project",
       "detailPageInfo": {
         "nextProjectSlug": "paradeigm",
+        "prevProjectSlug": "renew-our-schools",
         "url": "https://thereelhopeproject.org/",
         "title": "The Reel Hope Project",
         "description": "The Reel Hope Project creates videos for youth experiencing foster care to find a forever family.  They initially reached out to us because of site crashing issues and data vulnerability.  Once the site had been restored we developed their site on a platform that was reliable and secure and developed site improvements to allow independent edits and new page creations.",
@@ -478,6 +493,7 @@
       "slug": "paradeigm",
       "detailPageInfo": {
         "nextProjectSlug": "ebacmap",
+        "prevProjectSlug": "the-reel-hope-project",
         "url": "",
         "title": "SD Beer",
         "description": "SD Beer was created by the San Diego Brewers Guild to increase awareness and visibility of fresh locally brewed beer.  I contracted with Paradeigm to create a blogging feature to continue the mission of promoting awareness.  The feature included a blog post creation and editing platform for administration and a public-facing site to view the blog posts.",
