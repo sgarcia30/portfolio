@@ -60,6 +60,20 @@
 
 .project-writeup {
   padding: 1em 8vw;
+  text-align: justify;
+}
+
+ul {
+  margin-top: 0px;
+  padding-left: 18px;
+}
+
+.image-note {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-size: 0.8em;
+  padding-bottom: 1.2em;
 }
 
 .forward-icon {
@@ -116,5 +130,9 @@
   .detail-text {
     text-align: center;
     padding: 0.5em 1em;
+  }
+
+  .project-writeup {
+    text-align: left;
   }
 }

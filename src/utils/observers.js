@@ -8,7 +8,7 @@ const workPageOptions = {
 };
 
 const projectOptions = {
-    threshold: 0.2
+    threshold: 0
 };
 
 const homePageHeaderObserver = new IntersectionObserver((entries) => {
@@ -53,6 +53,7 @@ const navObserver = new IntersectionObserver((entries) => {
 
 const projectObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
+        console.log(entry)
         if (!entry.isIntersecting) {
             entry.target.classList.remove("appear");
         } else if (entry.isIntersecting) {

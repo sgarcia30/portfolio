@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Modal from '@material-ui/core/Modal';
+import Parser from 'html-react-parser';
 import { ProjectImgs } from '../../components';
 import { projectObserver } from '../../utils/observers';
 import './styles/projectDetails.scss';
@@ -101,13 +102,43 @@ const ProjectDetails = (props) => {
         </div>
         <hr />
         <div className='project-writeup fade-up'>
-          <h3 className='project-title'>Problem</h3>
-          <div className='project-problem'>{detailPageInfo.problem}</div>
+          {detailPageInfo.problem?.headline && (
+            <>
+              <h3 className='project-title'>Problem</h3>
+              <div className='project-problem'>
+                <span>{detailPageInfo.problem.headline}</span>
+                <ul>
+                  {detailPageInfo.problem.bullet_points?.map((bullet, key) => {
+                    return (
+                      <li key={key}>
+                        {bullet}
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+            </>
+          )}
           <h3 className='project-title'>Solution</h3>
           <ProjectImgs modalData={modalData} data={detailPageInfo}/>
-          <div className='project-solution'>{detailPageInfo.solution}</div>
-          <h3 className='project-title'>Result</h3>
-          <div className='project-result'>{detailPageInfo.result}</div>
+          <span className='image-note'>**Click images to enlarge**</span>
+          <div className='project-solution'>{detailPageInfo.solution.headline}</div>
+          {detailPageInfo.result?.bullet_points.length ? (
+            <>
+              <h3 className='project-title'>Result</h3>
+              <div className='project-result'>
+                <ul>
+                  {detailPageInfo.result.bullet_points?.map((bullet, key) => {
+                    return (
+                      <li key={key}>
+                        {Parser(bullet)}
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+            </>
+          ) : null}
         </div>
         <hr />
         <div className="bottom-button-container">
