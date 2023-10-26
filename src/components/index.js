@@ -8,6 +8,7 @@ import Bio from './layout/bio';
 import ProjectImgs from './layout/projectImgs';
 import ProjectDetails from './layout/projectDetails';
 import Technology from './layout/technology';
+import WorkHeader from './layout/workHeader';
 
 /* Page Components */
 import Main from './pages/main';
@@ -28,5 +29,6 @@ export {
   ProjectImgs,
   Skills,
   Technology,
-  Work
+  Work,
+  WorkHeader
 };

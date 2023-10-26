@@ -1,0 +1,35 @@
+@import '../../../styles/_variables';
+@import '../../../styles/_typography';
+
+.work-header-img {
+  min-height: 50vh;
+  width: 100%;
+  position: relative;
+  background-size: cover !important;
+}
+
+.work-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: $light-blue-trans;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+}
+
+.work-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+.work_project_logo {
+    width: 20vh;
+    position: absolute;
+    z-index: 2;
+}

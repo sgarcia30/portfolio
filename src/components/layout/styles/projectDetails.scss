@@ -1,6 +1,10 @@
 @import '../../../styles/_variables';
 @import '../../../styles/_typography';
 
+#project-detail {
+  padding: 2em 16vw;
+}
+
 .tech-bubbles {
   padding: 5px 10px;
   margin: 5px 10px;
@@ -10,12 +14,36 @@
 }
 
 .detail-text {
-  text-align: left;
+  text-align: justify;
+  padding: 0.5em 8em;
+}
+
+.bottom-button-container {
+  text-align: center;
 }
 
 .detail-container {
   font-size: 1.3rem;
-  padding-left: 50px;
+}
+
+.project-about {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 8vw;
+}
+
+.project-title {
+  text-align: left;
+}
+
+.project-role {
+  flex: 1 1 0px;
+  padding-right: 3vw;
+}
+
+.project-tech {
+  flex: 1 1 0px;
+  padding-left: 3vw;
 }
 
 .role-container {
@@ -30,28 +58,32 @@
   text-align: left;
 }
 
-.site-button {
-  text-decoration: none;
-  color: $almost-white !important;
-  font-weight: $font-weight-bold !important;
-  font-size: 1.1rem !important;
-  margin-top: 25px !important;
-  background-color: $light-blue !important;
-  padding: 6px 30px !important;
-  font-family: $font-family-source-sans-pro !important;
-  text-transform: none !important;
-  margin-bottom: 10px !important;
+.project-writeup {
+  padding: 1em 8vw;
+  text-align: justify;
 }
 
-.bottom-button-container {
-  display: inline-block;
-  margin-right: 10px;
+ul {
+  margin-top: 0px;
+  padding-left: 18px;
+}
+
+.image-note {
   text-align: center;
   width: 100%;
+  display: inline-block;
+  font-size: 0.8em;
+  padding-bottom: 1.2em;
+}
+
+.forward-icon {
+  vertical-align: middle;
+  margin-left: 8px;
 }
 
 .back-icon {
   vertical-align: middle;
+  margin-right: 8px;
 }
 
 .project-urls {
@@ -71,63 +103,61 @@
   text-decoration: underline;
 }
 
-#project-detail {
-  padding-top: 100px;
-  padding-left: 150px;
-  padding-right: 150px;
+.back-button {
+  text-decoration: none;
+  color: $almost-white !important;
+  font-weight: $font-weight-bold !important;
+  font-size: 1.1rem !important;
+  margin-top: 25px !important;
+  background-color: $light-blue !important;
+  padding: 6px 20px !important;
+  padding-right: 24px !important;
+  font-family: $font-family-source-sans-pro !important;
+  text-transform: none !important;
+  margin-bottom: 10px !important;
+}
+
+.back-button:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+@media (max-width: 1440px) {
+  .detail-text {
+    padding: 0.5em 4em;
+  }
 }
 
 @media (max-width: 1024px) {
-  .detail-container {
-    padding-left: 25px;
-  }
-
-  .detail-img-container {
-    padding-right: 25px;
-  }
-  
   .modal-body {
     width: 80% !important;
   }
-}
 
-@media (max-width: 900px) {
-  .detail-container {
-    padding-left: 10px;
+  .project-about {
+    flex-direction: column;
   }
 
-  .detail-img-container {
-    padding-right: 10px;
+  .project-role {
+    padding-right: 0vw;
   }
-}
-
-@media (max-width: 800px) {
-  #project-detail {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .MuiGrid-grid-xs-12 {
-      flex-grow: 0 !important;
-      max-width: 100% !important;
-      flex-basis: 100% !important;
+  
+  .project-tech {
+    padding-left: 0vw;
   }
 }
 
-@media (max-width: 600px) {
-  #project-detail {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-
-@media (max-width: 375px) {
-  #project-detail {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
+@media (max-width: 390px) {
   .modal-body {
     width: 90% !important;
+  }
+
+  .detail-text {
+    text-align: center;
+    padding: 0.5em 1em;
+  }
+
+  .project-writeup {
+    text-align: left;
   }
 }
