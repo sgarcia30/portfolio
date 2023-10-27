@@ -19,7 +19,9 @@
 }
 
 .bottom-button-container {
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .detail-container {
@@ -148,6 +150,10 @@ ul {
 }
 
 @media (max-width: 390px) {
+  .bottom-button-container {
+    flex-direction: column;
+  }
+
   .modal-body {
     width: 90% !important;
   }
