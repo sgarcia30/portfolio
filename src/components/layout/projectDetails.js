@@ -146,11 +146,11 @@ const ProjectDetails = (props) => {
           <Link to={`/portfolio/work/${detailPageInfo.prevProjectSlug}`}>
             <Button className="back-button">
               <ArrowBackIcon className="back-icon" fontSize="default"/>
-              Previous Project
+              Prev Project
             </Button>
           </Link>
           <Link to={`/portfolio/work/${detailPageInfo.nextProjectSlug}`}>
-            <Button className="back-button" style={{ marginLeft: '6em'}}>
+            <Button className="back-button">
               Next Project
               <ArrowForwardIcon className="forward-icon" fontSize="default"/>
             </Button>
