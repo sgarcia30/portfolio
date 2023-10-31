@@ -61,6 +61,11 @@
           },
           {
             "color": "#ffffff",
+            "backgroundColor": "#764abc",
+            "text": "Redux"
+          },
+          {
+            "color": "#ffffff",
             "backgroundColor": "#327ac7",
             "text": "Typescript"
           },
@@ -68,6 +73,31 @@
             "color": "#ffffff",
             "backgroundColor": "#215732",
             "text": "Node.js"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#68a958",
+            "text": "MongoDB"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#e99138",
+            "text": "AWS S3"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#48a9ee",
+            "text": "React-md"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#e34f26",
+            "text": "HTML5"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#2962ff",
+            "text": "CSS3"
           }
         ],
         "images": [
@@ -144,7 +174,13 @@
             "color": "#61dafb",
             "backgroundColor": "#282c34",
             "text": "React"
-          },{
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#764abc",
+            "text": "Redux"
+          },
+          {
             "color": "#ffffff",
             "backgroundColor": "#000000",
             "text": "Next.js"
@@ -161,6 +197,16 @@
           },
           {
             "color": "#ffffff",
+            "backgroundColor": "#fe5000",
+            "text": "Express"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#3e658c",
+            "text": "PostgreSQL"
+          },
+          {
+            "color": "#ffffff",
             "backgroundColor": "#2962ff",
             "text": "MaterialUI"
           },
@@ -173,11 +219,6 @@
             "color": "#ffffff",
             "backgroundColor": "#2962ff",
             "text": "CSS3"
-          },
-          {
-            "color": "#ffffff",
-            "backgroundColor": "#fe5000",
-            "text": "Express"
           }
         ],
         "images": [
@@ -214,7 +255,7 @@
         "description": "Moss is a place maker, they provide solutions for tension fabric structures, wide format graphics, and specialty signage to transform spaces into impactful places. They contacted us to help them connect with their customers more easily and streamline their ordering process.  With our unique web application, their customers can now get instant order updates, create new quotes, chat directly with the project manager, and make approvals on orders.",
         "details": "<p><strong>Project scope:</strong> My work on this project includes new feature building and bug squashing. I've worked on features for a new asset tracking option and product organization tools. The asset tracking option allows a customer to upload a floorplan for their assets and then drag-and-drop their assets onto the floorplan. This enables the customer to track their assets for maintenance and replacement. The product organization tools allow the products to be stored in catalogs for ease of finding and grouping specific products.</p>",
         "problem": {
-          "headline": "When I started work on this project the customer had 2 main concerns:",
+          "headline": "When I started work on this project the customer had two main concerns:",
           "bullet_points": [
             "Not being able to track assets once they entered the field.",
             "A disorganized product list that was hard to use."
@@ -346,6 +387,11 @@
           },
           {
             "color": "#ffffff",
+            "backgroundColor": "#764abc",
+            "text": "Redux"
+          },
+          {
+            "color": "#ffffff",
             "backgroundColor": "#327ac7",
             "text": "Typescript"
           },
@@ -356,8 +402,23 @@
           },
           {
             "color": "#ffffff",
+            "backgroundColor": "#68a958",
+            "text": "MongoDB"
+          },
+          {
+            "color": "#ffffff",
             "backgroundColor": "#5fbbf3",
             "text": "Tailwind"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#e34f26",
+            "text": "HTML5"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#2962ff",
+            "text": "CSS3"
           }
         ],
         "images": [
@@ -409,15 +470,21 @@
         "description": "The Reel Hope Project creates videos for youth experiencing foster care to find a forever family.  They initially reached out to us because of site crashing issues and data vulnerability.  Once the site had been restored we developed their site on a platform that was reliable and secure and developed site improvements to allow independent edits and new page creations.",
         "details": "<p><strong>Project scope:</strong> Design a website for helping children in foster care find forever homes. The project included an administration management system, a page builder, and a platform for helping foster children find forever homes. It was designed using Next.js, React, Node.js, Typescript, and Tailwind.</p>",
         "problem": {
-          "headline": "",
-          "bullet_points": []
+          "headline": "Before rebuilding the Reel Hope Project application it had three main issues:",
+          "bullet_points": [
+            "The site hosting was unstable which caused excessive downtime.",
+            "Because the site was unstable, there was also data vulnerability.",
+            "The site administrators needed a way to easily edit the website without a dedicated developer."
+          ]
         },
         "solution": {
-          "headline": ""
+          "headline": "To address these challenges, we designed a custom application using Next.js, React, Node.js, TypeScript, and Tailwind CSS. We also moved the site to a more reliable host to ensure a stable website and keep the data secure.  The application included an administration login area for adding to existing pages or creating new pages through a templating page builder."
         },
         "result": {
-          "headline": "",
-          "bullet_points": []
+          "bullet_points": [
+            "<strong>Site Editing:</strong> The administration area is intuitive, clean, and customizable.  Administrators can easily edit existing pages for content and layout, as well as, add a new page, or even unpublish an existing page.",
+            "<strong>Site and Data Stability:</strong> Since moving the site to a new host and rebuilding the site the stability and data security have increased significantly.  The administrators no longer worry about the children's data being improperly handled."
+          ]
         },
         "roles": [
           {
@@ -446,6 +513,11 @@
           },
           {
             "color": "#ffffff",
+            "backgroundColor": "#764abc",
+            "text": "Redux"
+          },
+          {
+            "color": "#ffffff",
             "backgroundColor": "#327ac7",
             "text": "Typescript"
           },
@@ -456,8 +528,23 @@
           },
           {
             "color": "#ffffff",
+            "backgroundColor": "#68a958",
+            "text": "MongoDB"
+          },
+          {
+            "color": "#ffffff",
             "backgroundColor": "#5fbbf3",
             "text": "Tailwind"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#e34f26",
+            "text": "HTML5"
+          },
+          {
+            "color": "#ffffff",
+            "backgroundColor": "#2962ff",
+            "text": "CSS3"
           }
         ],
         "images": [
@@ -499,15 +586,20 @@
         "description": "SD Beer was created by the San Diego Brewers Guild to increase awareness and visibility of fresh locally brewed beer.  I contracted with Paradeigm to create a blogging feature to continue the mission of promoting awareness.  The feature included a blog post creation and editing platform for administration and a public-facing site to view the blog posts.",
         "details": "<p>The scope of this project was to create a blog posting feature for Paradeigm LLC's customer, San Diego Brewers Guild. The blogging feature includes a blog post creation and editing platform for administration, and a public facing site for viewing the blog posts. The backend for the site, including: getting, posting, editing, and deleting endpoints, were created from scratch using NodeJS. The blog post creation and editing forms were created using Quill an open source WYSIWYG editor. The components were styled using Foundation as a grid framework.</p>",
         "problem": {
-          "headline": "",
-          "bullet_points": []
+          "headline": "When I started work on this project the customer had two features they wanted to implement:",
+          "bullet_points": [
+            "A blog post creation area for administration.",
+            "A public-facing site to view the blog posts."
+          ]
         },
         "solution": {
-          "headline": ""
+          "headline": "I designed a blogging feature that included a blog post creation and editing platform for administration and a public-facing site for viewing the blog posts. The API for this feature was RESTful (i.e. GET, POST, PUT, and DELETE) and was created using Node.js. The blog post creation and editing forms were created using Quill an open source WYSIWYG editor. The components were styled using Foundation as a grid framework."
         },
         "result": {
-          "headline": "",
-          "bullet_points": []
+          "bullet_points": [
+            "<strong>Blog Creation and Editing:</strong> The blog post tool is easy to use with a built-in WYSIWYG editor that allows a user to not only add the copy they want for the blog but also change font styles, add media, etc. In addition, blogs can be published/unpublished, edited, and deleted, and slugs are customizable.",
+            "<strong>Blog Viewing:</strong> The public-facing blog viewing pages are intuitive, have a clean and aesthetic view, and are easy to navigate."
+          ]
         },
         "roles": [
           {
