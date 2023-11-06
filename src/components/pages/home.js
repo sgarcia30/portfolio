@@ -1,19 +1,21 @@
 import React from 'react';
-import { NavBar, HomeHeader, Footer, ProjectDetail, Technology } from '../../components';
-// import './home-page.css';
+import { NavBar, Header, Footer, ProjectDetail, Technology } from '../../components';
 
-class Home extends React.Component {
-  render() {
-    return (
-        <div id="home">
-          <NavBar />
-          <HomeHeader />
-          <ProjectDetail />
-          <Technology />
-          <Footer />
-        </div>
-    );
+const Home = () => {
+  const tagline = {
+    line1a: 'Solving Complex Application',
+    line1b: 'Design Challenges',
+    line2: 'With <em>dedication</em>, <em>perseverance</em>, and <em>integrity</em>.'
   }
+  return (
+      <div id="home">
+        <NavBar />
+        <Header tagline={tagline} />
+        <ProjectDetail />
+        <Technology />
+        <Footer />
+      </div>
+  );
 }
 
 export default Home;

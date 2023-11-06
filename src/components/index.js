@@ -1,6 +1,6 @@
 /* Layout Components */
 import NavBar from './layout/navbar';
-import HomeHeader from './layout/homeHeader';
+import Header from './layout/header';
 import Footer from './layout/footer';
 import ProjectDetail from './layout/projectDetail';
 import Skills from './layout/skills';
@@ -20,8 +20,8 @@ export {
   About,
   Bio,
   Footer,
+  Header,
   Home,
-  HomeHeader,
   Main,
   NavBar,
   ProjectDetail,

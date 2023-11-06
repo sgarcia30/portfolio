@@ -2,14 +2,16 @@ import React, { useEffect, useRef } from 'react';
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-import { homePageHeaderObserver } from '../../utils/observers';
+import Parser from 'html-react-parser';
+import { headerObserver } from '../../utils/observers';
 
-import './styles/homeHeader.scss';
+import './styles/header.scss';
 
-const HomeHeadeer = () => {
+const Header = (props) => {
+  const { tagline } = props;
   const landingDiv = useRef();
   useEffect(() => {
-    homePageHeaderObserver.observe(landingDiv.current);
+    headerObserver.observe(landingDiv.current);
   });
 
   return (
@@ -29,15 +31,15 @@ const HomeHeadeer = () => {
           </div>
           <div>
             <div className="main-intro">
-              <strong>Solving Complex Application</strong>
+              <strong>{tagline.line1a}</strong>
             </div>
             <div className="main-intro">
-              <strong>Design Challenges</strong>
+              <strong>{tagline.line1b}</strong>
             </div>
           </div>
           <div>
             <p className="bio-blurb">
-              With <em>dedication</em>, <em>perseverance</em>, and <em>integrity</em>.
+              {Parser(tagline.line2)}
             </p>
           </div>
           <div>
@@ -55,4 +57,4 @@ const HomeHeadeer = () => {
   );
 }
 
-export default HomeHeadeer;
+export default Header;
