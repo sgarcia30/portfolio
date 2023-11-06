@@ -13,6 +13,7 @@ const Technology = () => {
       projectObserver.observe(fader);
     });
   }, []);
+
   return (
     <section id="technology">
       <div className="title fade-up">
