@@ -40,8 +40,8 @@ const Bio = () => {
                 <CardContent className='endorsement-content'>
                   <div className='endorsement'><em>{`"${e.endorsement}"`}</em></div>
                   <div>
-                    <span className='endorsement-name'><strong>{e.name}</strong></span>
-                    <span><em>{e.title}</em></span>
+                    <div className='endorsement-name'><strong>{e.name}</strong></div>
+                    <div className='endorsement-title'><em>{e.title}</em></div>
                   </div>
                 </CardContent>
               </Card>
@@ -53,7 +53,7 @@ const Bio = () => {
         Offline
       </div>
       <div className='offline-bio fade-up'>
-      When not coding, I can be found hiking and camping with my pal, Charlie. I live to learn, which is evident in my code, but this thirst for knowledge also extends to my offline hobbies. I find serenity in the great outdoors, immersing myself in the beauty of nature while exploring new hiking trails and setting up campfires under the stars. Yoga is my daily ritual for both physical and mental well-being, providing balance to my high-tech endeavors. I also have a deep appreciation for the therapeutic and healing benefits of essential oils, often crafting unique blends to promote relaxation and mindfulness during these moments of offline tranquility.
+        When not coding, I can be found hiking and camping with my pal, Charlie. I live to learn, which is evident in my code, but this thirst for knowledge also extends to my offline hobbies. I find serenity in the great outdoors, immersing myself in the beauty of nature while exploring new hiking trails and setting up campfires under the stars. Yoga is my daily ritual for both physical and mental well-being, providing balance to my high-tech endeavors. I also have a deep appreciation for the therapeutic and healing benefits of essential oils, often crafting unique blends to promote relaxation and mindfulness during these moments of offline tranquility.
       </div>
       <div className='experience-image fade-up'>
         <img src='/portfolio/images/sa_charlie_lula.jpg' alt='hiking-with-charlie' className='exp-img' />

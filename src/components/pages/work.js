@@ -18,7 +18,7 @@ const Work = (props) => {
   }, [slug]);
 
   return (
-    <div id="work">
+    <div id="work" style={{ backgroundColor: '#f9f9f9' }}>
       {project && (
          <>
           <NavBar />

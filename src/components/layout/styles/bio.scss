@@ -2,9 +2,9 @@
 @import '../../../styles/_typography';
 
 #bio {
-  padding-top: 75px;
   text-align: left;
   padding: 5em 25vw;
+  background-color: $almost-white;
 }
 
 .title-experience {
@@ -42,7 +42,7 @@
 }
 
 .endorsement-name {
-  padding-right: 40px;
+  display: block;
 }
 
 .offline-bio {

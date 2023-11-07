@@ -8,7 +8,7 @@ const Home = () => {
     line2: 'With <em>dedication</em>, <em>perseverance</em>, and <em>integrity</em>.'
   }
   return (
-      <div id="home">
+      <div id="home" style={{ backgroundColor: '#f9f9f9' }}>
         <NavBar />
         <Header tagline={tagline} />
         <ProjectDetail />

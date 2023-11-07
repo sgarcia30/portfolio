@@ -5,31 +5,24 @@ import moment from 'moment';
 
 import './styles/footer.scss';
 
-class Footer extends React.Component {
-  constructor (props) {
-    super(props);
-    this.scrollToTop = this.scrollToTop.bind(this);
-  }
-
-  scrollToTop() {
+const Footer = () => {
+  let year = moment().year();
+  const scrollToTop = () => {
     window.scrollTo(0, 0);
   }
-  
-  render() {
-    let year = moment().year();
-    return (
-      <Container className="container footer" disableGutters={true} maxWidth={false}>
-        <button className="btn-sm" onClick={this.scrollToTop}>
-          <KeyboardArrowUpIcon />
-        </button>
-        <div className="row">
-          <div className="col">
-            <h6>&copy; <span id="year">{year}</span> Sarah Ann Garcia</h6>
-          </div>
+
+  return (
+    <Container className="container footer" disableGutters={true} maxWidth={false}>
+      <button className="btn-sm" onClick={scrollToTop}>
+        <KeyboardArrowUpIcon />
+      </button>
+      <div className="row">
+        <div className="col">
+          <h6>&copy; <span id="year">{year}</span> Sarah Ann Garcia</h6>
         </div>
-      </Container>
-    );
-  }
+      </div>
+    </Container>
+  );
 }
 
 export default Footer;
