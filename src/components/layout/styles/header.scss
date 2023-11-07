@@ -14,12 +14,12 @@ hr {
 }
 
 .main-intro {
-  font-size: 2.8em;
+  font-size: 2.8rem;
   color: $black;
 }
 
 .bio-blurb {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: $black;
 }
 
@@ -79,6 +79,6 @@ hr {
 
 @media (max-width: 360px) {
   .main-intro {
-    font-size: 2em;
+    font-size: 2rem;
   }
 }

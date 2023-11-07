@@ -5,6 +5,7 @@ import { endorsements } from '../../data/endorsements.data.json';
 import './styles/bio.scss';
 
 const Bio = () => {
+  window.scrollTo(0, 0);
   useEffect(() => {
     const faders = document.querySelectorAll(".fade-up");
     faders.forEach(fader => {
