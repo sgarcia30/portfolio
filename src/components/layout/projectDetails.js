@@ -55,7 +55,7 @@ const ProjectDetails = (props) => {
       </Modal>
       <div>
         <div className='fade-up'>
-          <h2>{detailPageInfo.title}</h2>
+          <h2 style={{ fontSize: '2.5rem' }}>{detailPageInfo.title}</h2>
           <hr />
           <div className="detail-text">
             {detailPageInfo.description}

@@ -1,0 +1,34 @@
+{
+    "endorsements": [
+        {
+            "endorsement": "I worked with Sarah Ann for the duration of her tenure at Kayhan Space and highly recommend her for her strong work ethic and skill. Sarah Ann showed a keen ability to solve complex problems on a limited schedule, and was consistently committed to providing both leadership and engineering excellence to the team. I believe her technical experience, good-naturedness, and strong sense of responsibility would make her an excellent addition to any team looking to make an impact on big problems.",
+            "name": "Derek Strobel",
+            "title": "Lead Software Engineer at Kayhan Space"
+        },
+        {
+            "endorsement": "Sarah Ann is an optimistic, detail oriented, and passionate individual. She took the lead in creating our product roadmaps, and organized the workflow into a well structured pipeline. Sarah Ann is a team-oriented developer, and her enthusiasm brings a welcomed element of positivity to every sprint.",
+            "name": "Natalie Martin",
+            "title": "Account Manager at Quickdraw Development"
+        },
+        {
+            "endorsement": "I've had the pleasure of working with Sarah Ann for over a year at Kayhan Space. In my time working with her, she continued to take on greater leadership roles as well as expanding her frontend engineering capabilities, and continued to prove herself an invaluable and critical asset to Kayhan's continued success, both as a team leader and core developer. Sarah Ann displays great interest in solving challenging issues, she is extremely dedicated to her craft, and would make a superb addition to any engineering team.",
+            "name": "Jacob Garlick",
+            "title": "Senior Frontend Engineer at Kayhan Space"
+        },
+        {
+            "endorsement": "During Sarah Ann's tenure at Kayhan Space, I had the opportunity to collaborate with her. She not only demonstrated exceptional problem-solving skills and a dedicated commitment to engineering excellence but also displayed an amiable and cooperative demeanor. Sarah Ann seamlessly managed tight deadlines and assumed leadership roles, leaving a lasting positive impression. She is undoubtedly an asset to any team, approaching significant challenges with ease and competence.",
+            "name": "Felix Portillo",
+            "title": "Software Engineer at Kayhan Space"
+        },
+        {
+            "endorsement": "It was a pleasure being Sarah’s mentor for her time at Thinkful. Sarah is a very hard-working person and very disciplined to her craft. Throughout our time working together she was never afraid to learn something new and put in the work required to master the topic. Her communication throughout the program was excellent. She learned skills in react, redux & node during her time in the program. Sarah would be a great fit for a team environment as she is a very nice person to talk to and is not afraid to take on new challenges and learn.",
+            "name": "Ray Smith",
+            "title": "Software Engineering Manager at Sky"
+        },
+        {
+            "endorsement": "Sarah was a student of mine several years ago in a very challenging course—challenging because of both the material and also my style of teaching! I will always remember Sarah’s dedication and perseverance in her approach to learning this material, resulting in a very positive outcome. ",
+            "name": "Dr. Paul Neitzel",
+            "title": "Engineering Educator at the Georgia Institute of Technology"
+        }
+    ]
+}

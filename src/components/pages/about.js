@@ -1,19 +1,19 @@
-import React, { useEffect, useRef} from 'react';
-import { NavBar, Footer, Skills, Bio } from '../../components';
-import { navObserver } from '../../utils/observers';
+import React from 'react';
+import { NavBar, Footer, Bio, Header } from '../../components';
 
 const About = () => {
-  const aboutSection = useRef();
-  useEffect(() => {
-    navObserver.observe(aboutSection.current);
-  });
-    return (
-      <div className="about" ref={aboutSection}>
-        <NavBar />
-        <Bio />
-        <Skills />
-        <Footer />
-      </div>
+  const tagline = {
+    line1a: 'About Me.',
+    line2: 'Engineering solutions that produce real results.'
+  }
+
+  return (
+    <div className="about">
+      <NavBar />
+      <Header tagline={tagline} />
+      <Bio />
+      <Footer />
+    </div>
   );
 }
 
