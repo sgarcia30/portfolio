@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavBar, Footer, Skills, Bio, Header } from '../../components';
+import { NavBar, Footer, Bio, Header } from '../../components';
 
 const About = () => {
   const tagline = {
@@ -12,7 +12,6 @@ const About = () => {
       <NavBar />
       <Header tagline={tagline} />
       <Bio />
-      <Skills />
       <Footer />
     </div>
   );

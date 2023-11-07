@@ -11,19 +11,41 @@
   font-size: 2.8em;
   font-weight: bold;
   padding-bottom: 20px;
+  padding-top: 2em;
 }
 
 .experience {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding-bottom: 20px;
 }
 
 .experience-image {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .exp-img {
   text-align: center;
   width: 85%;
   border-radius: 4px;
+}
+
+.endorsement-container {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  border-radius: 16px !important;
+  box-shadow: 7px 7px 5px rgba(0,0,0, .4) !important;
+}
+
+.endorsement {
+  padding-bottom: 20px;
+}
+
+.endorsement-name {
+  padding-right: 40px;
+}
+
+.offline-bio {
+  font-size: 1.1rem;
+  padding-bottom: 20px;
 }
